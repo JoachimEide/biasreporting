@@ -7,6 +7,11 @@ body {
   background: #f9f9f9;
   font-size: 24px;
   padding: 25px;
+
+  /* Splitter teksten i kolonner*/
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
 }
 
 
