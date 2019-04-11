@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Pie Chart with anime.js</title>
+  <script src="./js/anime.min.js"></script>
+</head>
+<style>
+  svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+</style>
+
+<body>
+  <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In  -->
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="430px" height="430px" viewBox="0 0 430 430" style="enable-background:new 0 0 430 430;" xml:space="preserve">
+    <style type="text/css">
+      .st0{fill:#BDCCD4;}
+      .st1{fill:#FF7BAC;}
+      .st2{fill:#FF1D25;}
+      .st3{fill:#FF931E;}
+      .st4{fill:#7AC943;}
+      .st5{fill:#3FA9F5;}
+    </style>
+    <defs>
+    </defs>
+    <g>
+      <path class="st0" d="M214.9,215L181.4,2.6C192.5,0.9,203.8,0,215,0v215C214.9,215,214.9,215,214.9,215z"/>
+      <path class="st1" d="M214.8,214.3L141.6,12.9c12.9-4.7,26.3-8.1,39.8-10.3L214.8,214.3z"/>
+      <path class="st2" d="M215,215L215,215C215.1,214.9,215.1,214.9,215,215C215.1,214.9,215.1,214.9,215,215z M215,214.9L70.8,55.5 c20.7-18.8,44.6-33.1,70.8-42.7L215,214.9z"/>
+      <path class="st3" d="M214.9,215.1c0,0,0-0.1,0.1-0.1l0,0C215,215,214.9,215.1,214.9,215.1z M214.9,214.9L2.4,183.1 c7.3-49,31.6-94.3,68.4-127.6L214.9,214.9z"/>
+      <path class="st4" d="M144,418C57.9,387.8,0,306.3,0,215c0-10.6,0.8-21.4,2.4-31.9L215,214.9l0,0c0,0,0,0,0,0.1c0,0,0.1,0.1,0.1,0.1 c0,0,0,0-0.1,0c0,0.1,0,0.1,0,0.1c0,0,0-0.1,0-0.1L144,418z"/>
+      <path class="st5" d="M215,430c-24.3,0-48.2-4-71-12L215,215c0,0,0,0-0.1,0c0,0,0,0,0.1,0c-0.1,0-0.1,0-0.1,0c0,0,0,0,0.1,0 c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0.1,0v0c0-0.1,0-0.1,0-0.1c0,0,0,0,0,0V0c29,0,57.1,5.7,83.7,16.9c25.6,10.8,48.6,26.3,68.3,46 c19.7,19.7,35.2,42.7,46,68.3C424.3,157.9,430,186,430,215s-5.7,57.1-16.9,83.7c-10.8,25.6-26.3,48.6-46,68.3 c-19.7,19.7-42.7,35.2-68.3,46C272.1,424.3,244,430,215,430z"/>
+    </g>
+	</svg>
+
+  <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In  -->
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="430px" height="430px" viewBox="0 0 430 430" style="enable-background:new 0 0 430 430;" xml:space="preserve" id="svg1">
+    <style type="text/css">
+      .st6{fill:none;stroke:#FFFFFF;stroke-width:217;stroke-miterlimit:10;}
+    </style>
+    <defs>
+    </defs>
+    <path class="st6" d="M215,107.5c59.4,0,107.5,48.1,107.5,107.5S274.4,322.5,215,322.5S107.5,274.4,107.5,215S155.6,107.5,215,107.5"/>
+	</svg>
+
+  <script>
+    var leng
+    var svg1 = document.getElementById("svg1"),
+      paths = new Array();
+    [].slice.call(svg1.querySelectorAll('path')).forEach(function(path, i) {
+      paths[i] = path;
+      leng = paths[i].getTotalLength();
+      paths[i].style.strokeDasharray = leng + ' ' + (leng + 1);
+      paths[i].style.strokeDashoffset = 0;
+    });
+    var chart = anime.timeline();
+    chart.add({
+      targets: '.st6',
+      strokeDashoffset: [0, -leng],
+      easing: 'linear',
+      duration: 1000,
+      delay: 0,
+    })
+  </script>
+
+</body>
