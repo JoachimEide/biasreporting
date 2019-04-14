@@ -1,3 +1,6 @@
+function changeStyle(url) {
+  document.getElementById('stylesheet').href = url;
+}
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
@@ -45,5 +48,5 @@ window.addEventListener("scroll", function(){
       loop: true,
     })
   }
-  
+
 })
