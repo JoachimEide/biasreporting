@@ -1,0 +1,73 @@
+<body>
+  <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In  -->
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="493.3px" height="493.3px" viewBox="0 0 493.3 493.3" style="enable-background:new 0 0 493.3 493.3;" xml:space="preserve" id="svg1">
+    <style type="text/css">
+      .st0{fill:none;stroke:#BDCCD4;stroke-width:180;stroke-linejoin:bevel;stroke-miterlimit:10;}
+      .st1{fill:none;stroke:#FF7BAC;stroke-width:64;stroke-linejoin:bevel;stroke-miterlimit:10;}
+      .st2{fill:none;stroke:#FF1D25;stroke-width:64;stroke-linejoin:bevel;stroke-miterlimit:10;}
+      .st3{fill:none;stroke:#FF931E;stroke-width:64;stroke-linejoin:bevel;stroke-miterlimit:10;}
+      .st4{fill:none;stroke:#7AC943;stroke-width:64;stroke-linejoin:bevel;stroke-miterlimit:10;}
+      .st5{fill:none;stroke:#3FA9F5;stroke-width:64;stroke-linejoin:bevel;stroke-miterlimit:10;}
+    </style>
+    <defs>
+    </defs>
+    <path class="st0" d="M213,34.6c11-1.7,22.2-2.6,33.7-2.6"/>
+    <path class="st1" d="M173.3,44.8c12.7-4.6,26-8.1,39.7-10.2"/>
+    <path class="st2" d="M102.7,87.4c20.4-18.4,44.3-33,70.7-42.6"/>
+    <path class="st3" d="M34.4,214.7c7.5-50.2,32.4-94.8,68.3-127.3"/>
+    <path class="st4" d="M175.8,449.3C92,420.1,32,340.4,32,246.7c0-10.9,0.8-21.5,2.4-31.9"/>
+    <path class="st5" d="M246.7,32c118.6,0,214.7,96.1,214.7,214.7s-96.1,214.7-214.7,214.7c-24.8,0-48.7-4.2-70.9-12"/>
+  </svg>
+  <script src="js/anime.min.js"></script>
+
+  <script>
+    var chart = anime.timeline();
+    chart.add({
+      targets: '.st5',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 550,
+      delay: 0,
+    }).add({
+      targets: '.st4',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 250,
+      delay: 0,
+    }).add({
+      targets: '.st3',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 100,
+      delay: 0,
+    }).add({
+      targets: '.st2',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 80,
+      delay: 0,
+    }).add({
+      targets: '.st1',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 40,
+      delay: 0,
+    }).add({
+      targets: '.st0',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'linear',
+      duration: 40,
+      delay: 0,
+    })
+
+    var svg1 = document.getElementById("svg1"),
+      paths = new Array();
+    [].slice.call(svg1.querySelectorAll('path')).forEach(function(path, i) {
+      paths[i] = path;
+      var leng = paths[i].getTotalLength();
+      paths[i].style.strokeDasharray = leng + ' ' + leng;
+      paths[i].style.strokeDashoffset = leng;
+    });
+  </script>
+
+</body>

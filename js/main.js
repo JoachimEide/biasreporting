@@ -1,9 +1,9 @@
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
-  //console.log('Offset:' + offset);
+  console.log('Offset:' + offset);
   if (offset > 375){
-    var morphing = anime({
+    let morph1 = anime({
       targets: '#morphing .polymorph',
       points: [
         { value: '70 41 118.574 59.369 111.145 132.631 60.855 84.631 20.426 60.369' },
@@ -16,8 +16,8 @@ window.addEventListener("scroll", function(){
       loop: false,
     });
   }
-  if (offset > 539){
-    var morphing = anime({
+  if (offset > 539 && offset < 750){
+    let morph2 = anime({
       targets: '.st0',
       y: '198',
       height: '410',
@@ -26,4 +26,24 @@ window.addEventListener("scroll", function(){
       loop: false,
     })
   }
+  if (offset > 750){
+    let morph2 = anime({
+      targets: '.st0',
+      y: '593',
+      height: '15',
+      easing: 'easeOutQuad',
+      duration: 2000,
+      loop: false,
+    })
+  }
+  if (offset > 736 && offset < 893){
+    let morph3 = anime({
+      targets: '#graph .st1',
+      points: "960,540 960,0 1524,540 ",
+      easing: 'easeOutQuad',
+      duration: 2000,
+      loop: true,
+    })
+  }
+  
 })
