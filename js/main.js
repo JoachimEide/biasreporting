@@ -1,3 +1,6 @@
+function changeStyle(url) {
+  document.getElementById('stylesheet').href = url;
+}
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
@@ -36,4 +39,14 @@ window.addEventListener("scroll", function(){
       loop: false,
     })
   }
+  if (offset > 736 && offset < 893){
+    let morph3 = anime({
+      targets: '#graph .st1',
+      points: "960,540 960,0 1524,540 ",
+      easing: 'easeOutQuad',
+      duration: 2000,
+      loop: true,
+    })
+  }
+
 })
