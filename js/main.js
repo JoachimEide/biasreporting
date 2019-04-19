@@ -45,5 +45,5 @@ window.addEventListener("scroll", function(){
       loop: true,
     })
   }
-  
+
 })
