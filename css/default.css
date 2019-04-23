@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
 
 body{
-  display: grid;
+
   box-sizing: border-box;
 }
 html {
@@ -49,43 +49,24 @@ p {
 
 }
 
-#containerChapters{
-  align-items: left;
-  width: 21%;
-}
-
-nav{
-  box-sizing: border-box;
-  align-items: left;
-  white-space: nowrap;
-  background: #37474F;
-}
-
-
-nav ul {
-  text-decoration: underline;
-  list-style: none;
-  margin: 0;
-  padding:0;
-  display: none;
+.containerChapters {
   flex-direction: column;
-  line-height: 3;
+  display: flex;
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  justify-content: space-around;
 }
 
-
-@media(min-height: 300px){
-  nav ul {
-    position: sticky;
-    top:0;
-  }
-}
-
-nav ul li a {
-  padding: 0.5rem 1rem;
-  color: white;
+.containerChapters a {
   text-decoration: none;
-}
-
-main {
-  padding-bottom: 40rem;
+  font-size: 25px;
+  color: white;
+  display: inline-flex;
 }

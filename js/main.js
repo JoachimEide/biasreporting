@@ -1,13 +1,4 @@
 
-function showChapters() {
-
-  var chapterBar = document.getElementById("chapterBar")
-  if(chapterBar.style.display === "none"){
-    chapterBar.style.display = "block";
-  } else {
-    chapterBar.style.display = "none";
-  }
-}
 function changeStyle(url) {
   document.getElementById('stylesheet').href = url;
 }
