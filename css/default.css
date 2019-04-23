@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
 
+body{
+  display: grid;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
-}
-
-body{
-  margin:0;
-  display: grid;
-  width: 50%;
-  padding: 15%;
-  margin: 15%;
-  border: 25%;
-  background-color: white;
-  color:black;
 }
 
 h1 {
@@ -34,7 +27,7 @@ h5 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.7;
 }
 
@@ -46,23 +39,40 @@ p {
 }
 
 .content {
+  margin:15%;
+  display: grid;
+  width: 50%;
+  padding: 15%;
+  border: 25%;
+  background-color: white;
+  color: black;
 
-  margin-left: auto;
-  margin-right: auto;
+}
+
+#containerChapters{
+  padding-top: 50px;
+  align-items: left;
+  width: 21%;
 }
 
 nav{
+  box-sizing: border-box;
+  align-items: left;
   white-space: nowrap;
   background: #37474F;
-  display: flex;
 }
 
+
 nav ul {
+  text-decoration: underline;
   list-style: none;
   margin: 0;
   padding:0;
-  display: inline-flex;
+  display: none;
+  flex-direction: column;
+  line-height: 3;
 }
+
 
 @media(min-height: 300px){
   nav ul {
@@ -72,7 +82,6 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
