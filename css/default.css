@@ -5,11 +5,10 @@ html {
 }
 
 body{
-  margin:0;
   display: grid;
   width: 50%;
   padding: 15%;
-  margin: 15%;
+  margin: 0 auto;
   border: 25%;
   background-color: white;
   color:black;
@@ -34,7 +33,7 @@ h5 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.7;
 }
 
@@ -46,12 +45,14 @@ p {
 }
 
 .content {
-
   margin-left: auto;
   margin-right: auto;
 }
 
+
 nav{
+  box-sizing: border-box;
+  align-items: left;
   white-space: nowrap;
   background: #37474F;
   display: flex;
@@ -61,8 +62,10 @@ nav ul {
   list-style: none;
   margin: 0;
   padding:0;
-  display: inline-flex;
+  display: none;
+  flex-direction: column;
 }
+
 
 @media(min-height: 300px){
   nav ul {
@@ -72,7 +75,6 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;

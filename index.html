@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/default.css" id="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Bias reporting</title>
   </head>
   <body class="scroll">
     <!-- midlertidig test -->
-    <a href="#" onclick="changeStyle('css/style1.css');return false;" >white</a> <a href="#" onclick="changeStyle('css/style2.css');return false;" >black</a>
+    <a href="#" onclick="changeStyle('css/default.css');return false;" >white</a> <a href="#" onclick="changeStyle('css/dark.css');return false;" >black</a>
     <div id="image">
       <p>Image goes here</p>
     </div>
@@ -19,14 +20,17 @@
       <h5>Authors goes here</h5>
     </div>
 
-    <nav>
-      <ul>
-        <li><a href="#studentexperience"> Student experiences</a></li>
-        <li><a href="#biasSystemElon"> The Bias System at Elon</a></li>
-        <li><a href="#advocates"> Advovates and resources</a></li>
-        <li><a href="#improvement"> Room for improvement</a></li>
-      </ul>
-    </nav>
+    <input type="image" src="pictures/right-arrow.png" onclick="showChapters()" width="50px" height="50px">
+    <div id="containerChapters">
+      <nav>
+        <ul id="chapterBar">
+          <li><a href="#studentexperience"> Student experiences</a></li>
+          <li><a href="#biasSystemElon"> The Bias System at Elon</a></li>
+          <li><a href="#advocates"> Advovates and resources</a></li>
+          <li><a href="#improvement"> Room for improvement</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="content">
       <div id="studentexperience">
@@ -159,8 +163,8 @@
           able to connect with someone of a similar identity.</p>
 
         <p>“I don't have the lived experience of being a person of color and
-          someone who, you know, experience being targeted in that way,” she said.
-          “I’d want to speak with someone who understands the experience of
+          someone who, you know, experience being targeted in that way,” she said. </p>
+          <p class="quote"> “I’d want to speak with someone who understands the experience of
           being a person of color.” </p>
 
         <p>Although he is not a process advocate, Assistant Dean of Students
@@ -284,8 +288,8 @@
         </svg>
 
     <script src="js/anime.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
- -->
+  -->
+
 
   </body>
 </html>
