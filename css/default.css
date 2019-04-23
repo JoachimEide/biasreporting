@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
 
-html {
-  scroll-behavior: smooth;
-}
-
 body{
   display: grid;
-  width: 50%;
-  padding: 15%;
-  margin: 0 auto;
-  border: 25%;
-  background-color: white;
-  color:black;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -45,25 +39,37 @@ p {
 }
 
 .content {
-  margin-left: auto;
-  margin-right: auto;
+  margin:15%;
+  display: grid;
+  width: 50%;
+  padding: 15%;
+  border: 25%;
+  background-color: white;
+  color: black;
+
 }
 
+#containerChapters{
+  align-items: left;
+  width: 21%;
+}
 
 nav{
   box-sizing: border-box;
   align-items: left;
   white-space: nowrap;
   background: #37474F;
-  display: flex;
 }
 
+
 nav ul {
+  text-decoration: underline;
   list-style: none;
   margin: 0;
   padding:0;
   display: none;
   flex-direction: column;
+  line-height: 3;
 }
 
 
