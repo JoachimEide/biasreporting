@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:black;
+  color: white;
+  margin:0;
+  display: grid;
+  width: 50%;
+  padding: 15%;
+  margin: 15%;
+  border: 25%;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+.quote {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #73000A; /* endre til en farge som passer bedre i dark mode */
+}
+
+.content {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  white-space: nowrap;
+  background: #37474F;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  display: inline-flex;
+  position: fixed;
+}
+
+@media(min-height: 300px){
+  nav ul {
+    position: sticky;
+    top:0;
+  }
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding-bottom: 40rem;
+}
