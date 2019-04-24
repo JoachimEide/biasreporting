@@ -1,3 +1,46 @@
+const carouselSlider = document.querySelector('.carousel-slider');
+const carouselImage = document.querySelectorAll('.carousel-slider img')
+
+const prevBtn = document.querySelector('#prevBtn')
+const nextBtn = document.querySelector('#nextBtn')
+
+let counter = 1;
+const size = carouselImage[0].clientWidth;
+
+carouselSlider.style.transform = 'translateX(' +(-size *counter) + 'px)';
+
+nextBtn.addEventListener('click',()=>{
+  if(counter >= carouselImage.length -1) return;
+  carouselSlider.style.transition = "transform 0.4s ease-in-out";
+  counter++;
+  carouselSlider.style.transform = 'translateX(' +(-size *counter) + 'px)';
+});
+
+prevBtn.addEventListener('click',()=>{
+  if(counter <= 0) return;
+  carouselSlider.style.transition = "transform 0.4s ease-in-out";
+  counter--;
+  carouselSlider.style.transform = 'translateX(' +(-size *counter) + 'px)';
+});
+
+
+
+carouselSlider.addEventListener('transitioned', () =>{
+  if(carouselImage[counter].id === 'lastClone') {
+    carouselSlider.style.transition = "none";
+    counter = carouselImage.length -2;
+    carouselSlider.style.transform = 'translateX(' +(-size *counter) + 'px)';
+  }
+  if(carouselImage[counter].id === 'lastClone') {
+    carouselSlider.style.transition = "none";
+    counter = carouselImage.length - counter;
+    carouselSlider.style.transform = 'translateX(' +(-size *counter) + 'px)';
+  }
+});
+
+
+
+
 function toggleDarkLight() {
   var body = document.getElementById("body");
   var currentClass = body.className;
@@ -11,7 +54,7 @@ function changeStyle(url) {
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
-  console.log('Offset:' + offset);
+  //console.log('Offset:' + offset);
   if (offset > 375){
     let morph1 = anime({
       targets: '#morphing .polymorph',

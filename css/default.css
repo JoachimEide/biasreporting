@@ -2,7 +2,6 @@
 
 body{
 
-  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
@@ -72,6 +71,7 @@ p {
   display: inline-flex;
 }
 
+/*
 .switch {
   position: relative;
   display: inline-block;
@@ -127,6 +127,8 @@ input:checked +.slider:before{
   border-radius:50%;
 }
 
+*/
+
 form {
   width: 100%;
   margin: 10% auto;
@@ -148,4 +150,24 @@ input, textarea {
   text-align: center;
   display: flex;
   width: 50%;
+}
+
+
+.carousel{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+
+.carousel-container{
+  width: 726px;
+  margin: auto;
+  border:5px solid black;
+  overflow: hidden;
+}
+.carousel-slider{
+  display: flex;
+  width: 726px;
+  height: 500px;
 }
