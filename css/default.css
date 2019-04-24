@@ -65,8 +65,87 @@ p {
 }
 
 .containerChapters a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
   text-decoration: none;
-  font-size: 25px;
   color: white;
   display: inline-flex;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background-color: orange;
+  -webkit-transition:.4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  bottom:4px;
+  left: 4px;
+  background-color: #fff;
+  -webkit-transition:.4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: gray;
+}
+
+input:checked +.slider:before{
+  -webkit-transform:translateX(26px);
+  -ms-transform:translateX(26px);
+  transform: :translateX(26px);
+}
+
+.slider.round{
+  border-radius: 34px;
+}
+
+.slider.round:before{
+  border-radius:50%;
+}
+
+form {
+  width: 100%;
+  margin: 10% auto;
+  min-width: 9rem;
+}
+
+input, textarea {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background: lightgrey;
+}
+
+#submitButton{
+  text-align: center;
+  display: flex;
+  width: 50%;
 }
