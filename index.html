@@ -6,8 +6,7 @@
     <script type="text/javascript" src="js/main.js"></script>
     <title>Bias reporting</title>
   </head>
-  <body>
-    <input type="image" src="pictures/right-arrow.png" onclick="showChapters()" width="50px" height="50px">
+  <body id="body" class="light-mode">
 
     <div class="containerChapters">
       <a href="#studentexperience"> Student experiences</a>
@@ -17,6 +16,10 @@
     </div>
 
     <div class="content">
+      <label class ="switch">
+        <input type="checkbox" name="switch" onclick="toggleDarkLight()">
+        <span class="slider round"></span>
+      </label>
       <a href="#" onclick="changeStyle('css/default.css');return false;" >white</a> <a href="#" onclick="changeStyle('css/dark.css');return false;" >black</a>
       <div id="image">
         <p>Image goes here</p>
@@ -261,9 +264,19 @@
             the deep commitment into meaningful experience.”</p>
         </div>
 
-        <footer class="footer">
-          <p>Footer goes here.</p>
-        </footer>
+        <div class="mailForm">
+          <h2>Do you want to contribute with a solution?</h2>
+          <form action="" id="form">
+
+            <input type="text" placeholder="Name" name="name" required>
+
+            <input type="email" placeholder="Email" name="email" required>
+
+            <textarea placeholder="Message" name="message" required></textarea>
+
+          </form>
+          <input type="submit" value="Send" id="submitButton">
+        </div>
 
       </div>
     </div>
