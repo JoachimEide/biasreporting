@@ -1,12 +1,31 @@
-var delay = 3000;
+function showModal(){
+  var modal = document.getElementById('myModal');
+  modal.style.display = "block"
+  document.getElementById('buttons').addEventListener('click', function(evt){
+    var target = evt.target;
+    if(target.id ==='yes'){
+      document.getElementById('stylesheet').setAttribute("href","css/dark.css")
+      modal.style.display = "none";
+    } else if (target.id ==='no') {
+      modal.style.display = "none";
 
-function message(){
-  confirm("press")
+    }
+  })
 }
-setTimeout(function(){
-  message()
-},delay);
 
+window.onload= setTimeout(showModal,2500);
+
+/*
+function showModal(){
+  var modal = document.getElementById('myModal');
+}
+
+var delay = 3000;
+setTimeout(function(){
+  showModal()
+  modal.style.display="block"
+
+},3000);
 /*
 const carouselSlider = document.querySelector('.carousel-slider');
 const carouselImage = document.querySelectorAll('.carousel-slider img')
