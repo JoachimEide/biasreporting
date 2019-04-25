@@ -1,84 +1,154 @@
+
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans');
 
-html {
+* {
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-body{
-  background-color:black;
-  color: white;
-  margin:0;
-  display: grid;
-  width: 50%;
-  padding: 15%;
-  margin: 15%;
-  border: 25%;
+body {
+  margin: 0;
 }
 
-h1 {
+.wrapper {
+  position: relative;
+  background: black;
+}
+
+.containerChapters {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #d4c595;
+  height: 100vh;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.containerChapters a {
+  text-decoration: none;
+  color: #73000a;
+  font-weight: 700;
+  font-family: 'Libre Baskerville',serif;
+  font-size: 1em;
+}
+
+.header,
+.contentArticle {
+  width: 590px;
+  margin: auto;
+  max-width: 90%;
+  line-height: 30px;
+}
+
+.title{
   font-family: 'Libre Baskerville', serif;
+  font-size: 2.5em;
+}
+
+.title,
+#authors {
+  text-align: center;
+}
+
+#authors{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color:#686868;
+}
+
+.line {
+  height: 4px;
+  width: 590px;
+  background: linear-gradient(to right, #e5ce5c, #e1e5cf);
+  transform: rotate(180deg);
+}
+
+.lineupper {
+  height: 4px;
+  width: 590px;
+  background: linear-gradient(to left, #e5ce5c, #e1e5cf);
+  transform: rotate(-180deg)
+}
+
+video {
+  width: 100%;
+}
+
+.quote{
+  font-family: 'Libre Baskerville',serif;
   font-weight: bold;
-  font-size: 4em;
+  color: #73000A;
+  line-height: 2.5;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  font-size: 23px;
 }
 
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 38px;
+  color:#73000A;
+  line-height: 43px;
 }
 
-h5 {
+p{
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.8em;
+  color: #282828;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  line-height: 1.7;
+.padding{
+  height: 80px;
+  width: 100%;
 }
 
-.quote {
-  font-family: 'Libre Baskerville', serif;
+.paddingbottom{
+  height: 30px;
+  width: 100%;
+}
+
+/*------------------------*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/*
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
   font-weight: bold;
-  font-size: 1.6em;
-  color: #73000A; /* endre til en farge som passer bedre i dark mode */
 }
+*/
 
-.content {
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-nav{
-  white-space: nowrap;
-  background: #37474F;
-  display: flex;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding:0;
-  display: inline-flex;
-  position: fixed;
-}
-
-@media(min-height: 300px){
-  nav ul {
-    position: sticky;
-    top:0;
-  }
-}
-
-nav ul li a {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: white;
+.close:hover,
+.close:focus {
+  color: #000;
   text-decoration: none;
-}
-
-main {
-  padding-bottom: 40rem;
-}
+  cursor: pointer;
