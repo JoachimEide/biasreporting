@@ -13,6 +13,7 @@ body {
 .wrapper {
   position: relative;
   background: linear-gradient(180deg ,#210A0A,#330006);
+  padding-left: 300px;
 }
 
 .containerChapters {
