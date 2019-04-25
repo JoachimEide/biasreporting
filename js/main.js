@@ -1,3 +1,13 @@
+var delay = 3000;
+
+function message(){
+  confirm("press")
+}
+setTimeout(function(){
+  message()
+},delay);
+
+/*
 const carouselSlider = document.querySelector('.carousel-slider');
 const carouselImage = document.querySelectorAll('.carousel-slider img')
 
@@ -39,7 +49,7 @@ carouselSlider.addEventListener('transitioned', () =>{
 });
 
 
-
+*/
 
 function toggleDarkLight() {
   var body = document.getElementById("body");
