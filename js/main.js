@@ -15,18 +15,8 @@ function showModal(){
 
 window.onload= setTimeout(showModal,2500);
 
-/*
-function showModal(){
-  var modal = document.getElementById('myModal');
-}
 
-var delay = 3000;
-setTimeout(function(){
-  showModal()
-  modal.style.display="block"
-
-},3000);
-/*
+/*  --- PICTURE CAROUSEL
 const carouselSlider = document.querySelector('.carousel-slider');
 const carouselImage = document.querySelectorAll('.carousel-slider img')
 
@@ -53,7 +43,6 @@ prevBtn.addEventListener('click',()=>{
 });
 
 
-
 carouselSlider.addEventListener('transitioned', () =>{
   if(carouselImage[counter].id === 'lastClone') {
     carouselSlider.style.transition = "none";
@@ -67,19 +56,7 @@ carouselSlider.addEventListener('transitioned', () =>{
   }
 });
 
-
 */
-
-function toggleDarkLight() {
-  var body = document.getElementById("body");
-  var currentClass = body.className;
-
-  body.className = currentClass == "light-mode" ? "dark-mode" : "light-mode";
-}
-
-function changeStyle(url) {
-  document.getElementById('stylesheet').href = url;
-}
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
