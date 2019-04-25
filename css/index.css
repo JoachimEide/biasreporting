@@ -47,7 +47,8 @@ body {
 
 .title{
   font-family: 'Libre Baskerville', serif;
-  font-size: 2.5em;
+  color: #73000A;
+  font-size: 5em;
 }
 
 .title,
@@ -133,13 +134,23 @@ p{
 
 .modal-content {
   text-align: center;
-  background-color: white;
+  background-color: #ECE9E2;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 45%;
+  border:5px solid #D4C595;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 400px;
+  height: 300px;
 }
 
 #buttons{
   text-align: center;
+}
+
+#modalp{
+  font-family: 'Libre Baskerville',serif;
+  color: #73000A;
+  font-weight: bold;
+  font-size: 23px;
 }
