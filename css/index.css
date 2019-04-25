@@ -13,6 +13,7 @@ body {
 .wrapper {
   position: relative;
   background: #ECE9E2;
+  padding-left: 300px; /*Dette er egentlig en dårlig ide, men funker foreløpig*/
 }
 
 .containerChapters {
