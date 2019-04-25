@@ -12,7 +12,7 @@ body {
 
 .wrapper {
   position: relative;
-  background: linear-gradient(180deg ,#210A0A,#330006,#491E1E);
+  background: linear-gradient(180deg ,#210A0A,#330006);
 }
 
 .containerChapters {
@@ -47,7 +47,8 @@ body {
 
 .title{
   font-family: 'Libre Baskerville', serif;
-  font-size: 2.5em;
+  font-size: 5em;
+  color: #D4C595;
 }
 
 .title,
