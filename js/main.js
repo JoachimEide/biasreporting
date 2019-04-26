@@ -1,19 +1,12 @@
 function showModal(){
   var modal = document.getElementById('myModal');
-  modal.style.display = "block"
-  document.getElementById('buttons').addEventListener('click', function(evt){
-    var target = evt.target;
-    if(target.id ==='yes'){
+  var sliderdm = document.getElementById('sliderdm')
+    sliderdm.onclick = function() {
       document.getElementById('stylesheet').setAttribute("href","css/dark.css")
-      modal.style.display = "none";
-    } else if (target.id ==='no') {
-      modal.style.display = "none";
-
     }
-  })
 }
 
-window.onload= setTimeout(showModal,2500);
+window.onload= setTimeout(showModal,1500);
 
 
 /*  --- PICTURE CAROUSEL

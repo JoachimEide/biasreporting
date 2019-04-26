@@ -23,7 +23,7 @@ body {
   background: #CC5252;
   height: 100vh;
   padding: 20px;
-  z-index: 1;
+  z-index: 2;
 
   display: flex;
   justify-content: space-around;
@@ -119,39 +119,34 @@ p{
 /*------------------------*/
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 2; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-left: 1200px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: hidden; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-/* Modal Content */
+
 .modal-content {
-  background-color: #fefefe;
+  text-align: center;
+  background-color: #ECE9E2;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
+  padding: 5px;
+  border:5px solid #D4C595;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 220px;
+  height: 135px;
 }
 
-/*
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
+
+#modalp{
+  font-family: 'Libre Baskerville',serif;
+  color: #73000A;
   font-weight: bold;
+  font-size: 16px;
 }
-*/
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
