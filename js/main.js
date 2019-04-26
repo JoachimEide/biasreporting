@@ -1,9 +1,21 @@
 function showModal(){
   var modal = document.getElementById('myModal');
   var sliderdm = document.getElementById('sliderdm')
-    sliderdm.onclick = function() {
+  document.getElementById('slider').addEventListener('click',function(evt) {
+    var target = evt.target;
+    if(target.id === 'sliderdm'){
       document.getElementById('stylesheet').setAttribute("href","css/dark.css")
+      sliderdm.setAttribute("src",'pictures/dm-button-change.svg')
+      var modalp =  document.getElementById('modalp');
+      modalp.innerHTML = "Hope you like it! You can always change back <br> <br>"
+
+      sliderdm.id = "sliderchange"
+    }else if (target.id ==="sliderchange") {
+      document.getElementById('stylesheet').setAttribute("href","css/index.css")
+      sliderdm.setAttribute("src",'pictures/dm-button.svg')
+      modal.style.display = "none";
     }
+  })
 }
 
 window.onload= setTimeout(showModal,1500);

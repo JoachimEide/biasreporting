@@ -133,10 +133,10 @@ p{
 
 .modal-content {
   text-align: center;
-  background-color: #ECE9E2;
+  background-color: #210A0A;
   margin: auto;
   padding: 5px;
-  border:5px solid #D4C595;
+  border:2px solid #CC5252;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 220px;
@@ -146,7 +146,7 @@ p{
 
 #modalp{
   font-family: 'Libre Baskerville',serif;
-  color: #73000A;
+  color: #CC5252;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 12px;
 }
