@@ -34,13 +34,14 @@ body {
 }
 
 .containerChapters a{
-  display: none;
+  display: block;
   text-decoration: none;
   color: #5C5120;
   font-weight: 700;
   font-family: 'Libre Baskerville',serif;
   font-size: 1em;
 }
+
 
 #arrow {
   display: block;
