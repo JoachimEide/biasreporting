@@ -20,10 +20,10 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  background: #d4c595;
+  background: #D4C595;
   height: 100vh;
   padding: 20px;
-  z-index: 1;
+  z-index: 2;
 
   display: flex;
   justify-content: space-around;
@@ -32,7 +32,7 @@ body {
 
 .containerChapters a {
   text-decoration: none;
-  color: #73000a;
+  color: #5C5120;
   font-weight: 700;
   font-family: 'Libre Baskerville',serif;
   font-size: 1em;
@@ -121,15 +121,13 @@ p{
 .modal {
   display: none;
   position: fixed;
-  z-index: 2;
-  padding-top: 100px;
+  z-index: 1;
+  padding-left: 1200px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
 }
 
 
@@ -137,21 +135,18 @@ p{
   text-align: center;
   background-color: #ECE9E2;
   margin: auto;
-  padding: 20px;
+  padding: 5px;
   border:5px solid #D4C595;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  width: 400px;
-  height: 300px;
+  width: 220px;
+  height: 135px;
 }
 
-#buttons{
-  text-align: center;
-}
 
 #modalp{
   font-family: 'Libre Baskerville',serif;
   color: #73000A;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 16px;
 }
