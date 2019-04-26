@@ -13,7 +13,7 @@ body {
 .wrapper {
   position: relative;
   background: #ECE9E2;
-  padding-left: 300px; /*Dette er egentlig en dårlig ide, men funker foreløpig*/
+  padding-left: 30%; /*Dette er egentlig en dårlig ide, men funker foreløpig*/
 }
 
 .containerChapters {
@@ -50,6 +50,7 @@ body {
   font-family: 'Libre Baskerville', serif;
   color: #73000A;
   font-size: 5em;
+  line-height: 1.5;
 }
 
 .title,
