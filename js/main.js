@@ -18,7 +18,7 @@ function showModal(){
   })
 }
 
-window.onload= setTimeout(showModal,1500);
+window.onload= setTimeout(showModal,3500);
 
 
 /*  --- PICTURE CAROUSEL
