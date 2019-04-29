@@ -87,7 +87,9 @@ body {
 }
 
 video {
-  width: 100%;
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 .quote{
