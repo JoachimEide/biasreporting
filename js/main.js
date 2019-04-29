@@ -21,6 +21,8 @@ function showModal(){
 window.onload= setTimeout(showModal,3500);
 
 const removeSideBar = () => {
+  let wrapper = document.getElementById('wrap');
+  wrapper.style.paddingleft = '0%';
   let chapters = document.querySelector(".containerChapters").children;
   for (let i = 0; i < chapters.length; i++){
     if (chapters[i].style.display === 'none'){
