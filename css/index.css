@@ -13,7 +13,6 @@ body {
 .wrapper {
   position: relative;
   background: #ECE9E2;
-  padding-left: 15%; /*Dette er egentlig en dårlig ide, men funker foreløpig*/
 }
 
 .containerChapters {
@@ -43,21 +42,14 @@ body {
   line-height: 1.5;
 }
 
-
-#arrow {
-  display: block;
-  height: 30px;
-}
-
 .header,
 .contentArticle {
-  width: 590px;
+  position: relative;
+  width: 100%;
   margin: auto;
   max-width: 90%;
   line-height: 30px;
 }
-
-
 
 .title{
   font-family: 'Libre Baskerville', serif;
@@ -83,13 +75,15 @@ body {
   width: 590px;
   background: linear-gradient(to right, #e5ce5c, #e1e5cf);
   transform: rotate(180deg);
+  margin: auto;
 }
 
 .lineupper {
   height: 4px;
   width: 590px;
   background: linear-gradient(to left, #e5ce5c, #e1e5cf);
-  transform: rotate(-180deg)
+  transform: rotate(-180deg);
+  margin: auto;
 }
 
 video {
@@ -105,6 +99,8 @@ video {
   padding-top: 140px;
   padding-bottom: 140px;
   font-size: 23px;
+  width: 590px;
+  margin: auto;
 }
 
 h2 {
@@ -113,11 +109,17 @@ h2 {
   font-size: 38px;
   color:#73000A;
   line-height: 43px;
+  width: 590px;
+  margin: auto;
+  padding: 30px 0px;
 }
 
 p{
   font-family: 'Open Sans', sans-serif;
   color: #282828;
+  width: 590px;
+  margin: auto;
+  padding: 1em 0px;
 }
 
 .padding{
@@ -128,6 +130,12 @@ p{
 .paddingbottom{
   height: 30px;
   width: 100%;
+}
+
+object{
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 /*------------------------*/
@@ -165,12 +173,17 @@ p{
   font-size: 12px;
 }
 
+.mailForm{
+  width: 590px;
+  margin: auto;
+}
+
 .input{
-  display: flex;
-  width: 100%;
+padding: 100px;
 }
 
 textarea{
-  width: 100%;
+  margin: auto;
   height: 200px;
+  width: 100%
 }
