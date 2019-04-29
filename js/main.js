@@ -20,6 +20,20 @@ function showModal(){
 
 window.onload= setTimeout(showModal,3500);
 
+const removeSideBar = () => {
+  let chapters = document.querySelector(".containerChapters").children;
+  for (let i = 0; i < chapters.length; i++){
+    if (chapters[i].style.display === 'none'){
+        //Her vil vi egentlig gjøre animasjon av siderbar
+        chapters[i].style.display = 'block';
+    } else {
+      //Her vil vi egentlig gjøre animasjon av siderbar
+      chapters[i].style.display = 'none';
+    }
+
+  }
+};
+
 
 /*  --- PICTURE CAROUSEL
 const carouselSlider = document.querySelector('.carousel-slider');
@@ -61,7 +75,7 @@ carouselSlider.addEventListener('transitioned', () =>{
   }
 });
 
-*/
+
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
@@ -111,3 +125,4 @@ window.addEventListener("scroll", function(){
   }
 
 })
+*/
