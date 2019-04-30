@@ -2,6 +2,8 @@
 function openNav(){
   document.getElementById("sideNav").style.width = "250px";
   document.getElementById('wrap').style.marginLeft = "250px";
+  document.getElementById('arrowSvg').style.marginLeft="190px";
+  document.getElementById('arrowSvg').setAttribute("src", 'pictures/left-arrow.png')
 }
 
 // function showModal(){

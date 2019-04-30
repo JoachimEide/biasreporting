@@ -14,11 +14,28 @@ body {
   position: relative;
   background: #ECE9E2;
 }
+
+.navSlider{
+  height: 100%;
+  top:0;
+  left: 0;
+  width: 40px;
+  position: fixed;
+  background-color: #D4C595;
+}
+#arrow{
+  text-align: center;
+  padding-top: 350px;
+}
+
+#arrowSvg{
+  transition: margin-left .5s;
+}
 .containerChapters{
   height: 100%;
   width: 0;
   position: fixed;
-  z-index:1;
+  z-index:2;
   top: 0;
   left:0;
   background-color: #D4C595;
@@ -28,6 +45,7 @@ body {
 }
 
 .containerChapters a {
+  display: flex;
   padding:50px;
   text-decoration: none;
   font-size: 1em;
@@ -190,7 +208,7 @@ object{
 .modal {
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   padding-left: 80%;
   left: 10px;
   top: -2px;
