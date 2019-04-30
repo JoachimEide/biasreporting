@@ -1,25 +1,32 @@
-function showModal(){
-  var modal = document.getElementById('myModal');
-  var sliderdm = document.getElementById('sliderdm')
-  document.getElementById('slider').addEventListener('click',function(evt) {
-    var target = evt.target;
-    if(target.id === 'sliderdm'){
-      document.getElementById('stylesheet').setAttribute("href","css/dark.css")
-      sliderdm.setAttribute("src",'pictures/dm-button-change.svg')
-      var modalp =  document.getElementById('modalp');
-      modalp.innerHTML = "Hope you like it! You can always change back <br> <br>"
 
-      sliderdm.id = "sliderchange"
-    }else if (target.id ==="sliderchange") {
-      document.getElementById('stylesheet').setAttribute("href","css/index.css")
-      sliderdm.setAttribute("src",'pictures/dm-button.svg')
-      modal.style.display = "none";
-    }
-  })
+function openNav(){
+  document.getElementById("sideNav").style.width = "250px";
+  document.getElementById('wrap').style.marginLeft = "250px";
 }
 
-window.onload= setTimeout(showModal,3500);
+// function showModal(){
+//   var modal = document.getElementById('myModal');
+//   var sliderdm = document.getElementById('sliderdm')
+//   document.getElementById('slider').addEventListener('click',function(evt) {
+//     var target = evt.target;
+//     if(target.id === 'sliderdm'){
+//       document.getElementById('stylesheet').setAttribute("href","css/dark.css")
+//       sliderdm.setAttribute("src",'pictures/dm-button-change.svg')
+//       var modalp =  document.getElementById('modalp');
+//       modalp.innerHTML = "Hope you like it! You can always change back <br> <br>"
+//
+//       sliderdm.id = "sliderchange"
+//     }else if (target.id ==="sliderchange") {
+//       document.getElementById('stylesheet').setAttribute("href","css/index.css")
+//       sliderdm.setAttribute("src",'pictures/dm-button.svg')
+//       modal.style.display = "none";
+//     }
+//   })
+// }
+//
+// window.onload= setTimeout(showModal,3500);
 
+/*
 const removeSideBar = () => {
   let wrapper = document.getElementById('wrap');
   wrapper.style.paddingleft = '0%';
@@ -35,7 +42,7 @@ const removeSideBar = () => {
 
   }
 };
-
+*/
 
 /*  --- PICTURE CAROUSEL
 const carouselSlider = document.querySelector('.carousel-slider');

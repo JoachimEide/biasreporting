@@ -14,24 +14,69 @@ body {
   position: relative;
   background: #ECE9E2;
 }
+.containerChapters{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index:1;
+  top: 0;
+  left:0;
+  background-color: #D4C595;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top:60px;
+}
 
+.containerChapters a {
+  padding:50px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #5C5120;
+  font-weight: 700;
+  font-family: 'Libre Baskerville',serif;
+  line-height: 1.5;
+}
+
+.containerChapters a:hover{
+  color:grey;
+}
+
+.containerChapters .closebtn{
+  position: absolute;
+  top:0;
+  right: 25px;
+  font-size: 36px;
+  margin-left:50px;
+}
+
+.wrapper{
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .containerChapters {padding-top: 15px;}
+  .containerChapters a {font-size: 18px;}
+}
+
+/*
 .containerChapters {
   position: fixed;
 
-  /*endring i js*/
   left: 0;
 
   top: 0;
   background: #D4C595;
-  height: 100vh;
+  height: 100%;
   padding: 20px;
   z-index: 2;
-
+  overflow-x:
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
-
+*/
+/*
 .containerChapters a{
   display: block;
   text-decoration: none;
@@ -41,7 +86,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
 }
-
+*/
 .header,
 .contentArticle {
   position: relative;
