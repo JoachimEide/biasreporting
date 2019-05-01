@@ -2,7 +2,7 @@
 function openNav(){
   var arrow = document.getElementById('arrow')
   var arrowSvg = document.getElementById('arrowSvg')
-  arrow.onclick = function(){
+  arrowSvg.onclick = function(){
     document.getElementById("sideNav").style.width = "250px";
     document.getElementById('wrap').style.marginLeft = "250px";
     arrowSvg.style.marginLeft = "190px"
@@ -12,7 +12,7 @@ function openNav(){
 }
 
 function closeNav(){
-  arrow.onclick = function(){
+  arrowSvg.onclick = function(){
     document.getElementById("sideNav").style.width = "0px";
     document.getElementById('wrap').style.marginLeft = "0px";
     arrowSvg.style.marginLeft = "0px"
