@@ -1,28 +1,47 @@
 
 function openNav(){
-  var sideNav= document.getElementById("sideNav") /*.style.width = "250px";*/
-  var wrap = document.getElementById('wrap')/*.style.marginLeft = "250px";*/
-  var arrowSvg = document.getElementById('arrowSvg') /*.style.marginLeft="190px";*/
-  document.getElementById('arrow').addEventListener('click', function(evt){
-    var target = evt.target;
-    if(target.id === "arrowSvg"){
-      sideNav.style.width = "250px";
-      wrap.style.marginLeft = "250px"
-      arrowSvg.style.marginLeft="190px";
-      arrowSvg.setAttribute("src", 'pictures/left-arrow.png');
-      arrowSvg.id = "backArrow"
-    } else if (target.id === "backArrow") {
-      sideNav.style.width = "0px";
-      wrap.style.marginLeft = "0px";
-      backArrow.style.marginLeft ="0px"
-      backArrow.setAttribute("src", 'pictures/right-arrow.png');
-      backArrow.id = "arrowSvg"
-    }
-  })
-
-
-  /*var backArrow = document.getElementById('arrowSvg').setAttribute("src", 'pictures/left-arrow.png')*/
+  var arrow = document.getElementById('arrow')
+  var arrowSvg = document.getElementById('arrowSvg')
+  arrowSvg.onclick = function(){
+    document.getElementById("sideNav").style.width = "250px";
+    document.getElementById('wrap').style.marginLeft = "250px";
+    arrowSvg.style.marginLeft = "190px"
+    arrowSvg.setAttribute("src","pictures/left-arrow.png")
+    closeNav()
+  }
 }
+
+function closeNav(){
+  arrowSvg.onclick = function(){
+    document.getElementById("sideNav").style.width = "0px";
+    document.getElementById('wrap').style.marginLeft = "0px";
+    arrowSvg.style.marginLeft = "0px"
+    arrowSvg.setAttribute("src","pictures/right-arrow.png")
+    openNav()
+  }
+}
+
+// function openNav(){
+//   var sideNav= document.getElementById("sideNav") /*.style.width = "250px";*/
+//   var wrap = document.getElementById('wrap')/*.style.marginLeft = "250px";*/
+//   var arrowSvg = document.getElementById('arrowSvg') /*.style.marginLeft="190px";*/
+//   document.getElementById('arrow').addEventListener('click', function(evt){
+//     var target = evt.target;
+//     if(target.id === "arrowSvg"){
+//       sideNav.style.width = "250px";
+//       wrap.style.marginLeft = "250px"
+//       arrowSvg.style.marginLeft="190px";
+//       arrowSvg.setAttribute("src", 'pictures/left-arrow.png');
+//       arrowSvg.id = "backArrow"
+//     } else if (target.id === "backArrow") {
+//       sideNav.style.width = "0px";
+//       wrap.style.marginLeft = "0px";
+//       backArrow.style.marginRight ="0px"
+//       backArrow.setAttribute("src", 'pictures/right-arrow.png');
+//       backArrow.id = "arrowSvg"
+//     }
+//   })
+//
 
 // function showModal(){
 //   var modal = document.getElementById('myModal');
