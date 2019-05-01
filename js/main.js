@@ -13,7 +13,7 @@ function openNav(){
 
 function closeNav(){
   arrowSvg.onclick = function(){
-    document.getElementById("sideNav").style.width = "0px";
+    var sideNav = document.getElementById("sideNav").style.width = "0px";
     document.getElementById('wrap').style.marginLeft = "0px";
     arrowSvg.style.marginLeft = "0px"
     arrowSvg.setAttribute("src","pictures/right-arrow.png")
@@ -65,13 +65,13 @@ function closeNav(){
 //
 // window.onload= setTimeout(showModal,3500);
 
-/*
+
 const removeSideBar = () => {
   let wrapper = document.getElementById('wrap');
   wrapper.style.paddingleft = '0%';
   let chapters = document.querySelector(".containerChapters").children;
   for (let i = 0; i < chapters.length; i++){
-    if (chapters[i].style.display === 'none'){
+    if (chapters[i].style.left === 'none'){
         //Her vil vi egentlig gjøre animasjon av siderbar
         chapters[i].style.display = 'block';
     } else {
@@ -81,7 +81,7 @@ const removeSideBar = () => {
 
   }
 };
-*/
+
 
 /*  --- PICTURE CAROUSEL
 const carouselSlider = document.querySelector('.carousel-slider');

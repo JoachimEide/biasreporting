@@ -53,6 +53,8 @@ body {
   font-weight: 700;
   font-family: 'Libre Baskerville',serif;
   line-height: 1.5;
+  left: 0;
+  opacity: 1;
 }
 
 .containerChapters a:hover{
