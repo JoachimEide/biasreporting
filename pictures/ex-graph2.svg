@@ -1,72 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 590 550" style="enable-background:new 0 0 590 550;" xml:space="preserve">
+<svg version="1.1" id="graph2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 590 407.5" style="enable-background:new 0 0 590 407.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.4;fill:#E5CE5C;enable-background:new    ;}
-	.st1{fill:#210A0A;stroke:#515151;stroke-width:2;stroke-miterlimit:10;}
-	.st2{fill:url(#SVGID_1_);}
-	.st3{fill:url(#SVGID_2_);}
-	.st4{fill:url(#SVGID_3_);}
-	.st5{fill:url(#SVGID_4_);}
-	.st6{fill:url(#SVGID_5_);}
-	.st7{fill:url(#SVGID_6_);}
+	.st1{fill:#210A0A;stroke:#515151;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#515151;stroke-miterlimit:10;}
+	.st3{enable-background:new    ;}
+	.st4{font-family:'OpenSans';}
+	.st5{font-size:10.8544px;}
+	.st6{font-size:11.6212px;}
+	.st7{fill:#CC5252;}
+	.st8{fill:#73000A;}
+	.st9{fill:#511818;}
 </style>
-<g id="Group_7" transform="translate(-70.9 -89.2)">
-	<g id="Group_5">
-		<path id="Path_4" class="st0" d="M167.8,520.3h421.3v62.9H167.8V520.3z"/>
-		<path id="Path_5" class="st0" d="M167.8,394.6h421.3v62.9H167.8V394.6z"/>
-		<path id="Path_6" class="st0" d="M167.8,268.8h421.3v62.9H167.8V268.8z"/>
-	</g>
-	<g id="Group_6">
-		<path id="Path_7" class="st1" d="M167.8,614.6V268.8"/>
-		<path id="Path_8" class="st1" d="M589.1,583.2H136.4"/>
-		<path id="Path_9" class="st1" d="M230.7,583.2V602"/>
-		<path id="Path_10" class="st1" d="M293.5,583.2V602"/>
-		<path id="Path_11" class="st1" d="M356.4,583.2V602"/>
-		<path id="Path_12" class="st1" d="M419.3,583.2V602"/>
-		<path id="Path_13" class="st1" d="M482.2,583.2V602"/>
-		<path id="Path_14" class="st1" d="M545.1,583.2V602"/>
-		<path id="Path_15" class="st1" d="M148.9,520.3h18.9"/>
-		<path id="Path_16" class="st1" d="M148.9,457.4h18.9"/>
-		<path id="Path_17" class="st1" d="M148.9,394.6h18.9"/>
-		<path id="Path_18" class="st1" d="M148.9,331.7h18.9"/>
-	</g>
+<g id="Squares">
+	<path id="sq5" class="st0" d="M108.6,35.9h408v30.4h-408L108.6,35.9L108.6,35.9z"/>
+	<path id="sq4" class="st0" d="M109.2,96.9h408v30.4h-408L109.2,96.9L109.2,96.9z"/>
+	<path id="sq3" class="st0" d="M108.6,157.9h408v30.4h-408L108.6,157.9L108.6,157.9z"/>
+	<path id="sq2" class="st0" d="M108.6,219.2h408v30.4h-408L108.6,219.2L108.6,219.2z"/>
+	<path id="sq1" class="st0" d="M108.6,280.2h408v30.5h-408L108.6,280.2L108.6,280.2z"/>
 </g>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="123.625" y1="239.975" x2="196.275" y2="312.625" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="150.2" y="368.8" class="st2" width="19.5" height="125.8"/>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="170.475" y1="255.8251" x2="274.825" y2="360.175" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="212.9" y="305.4" class="st3" width="19.5" height="189.2"/>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="241.225" y1="247.975" x2="329.875" y2="336.625" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="275.8" y="336.8" class="st4" width="19.5" height="157.8"/>
-<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="288.05" y1="264.0499" x2="408.65" y2="384.6501" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="338.6" y="272.8" class="st5" width="19.5" height="221.7"/>
-<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="343.35" y1="271.55" x2="479.15" y2="407.3499" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="401.5" y="242.5" class="st6" width="19.5" height="252.1"/>
-<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="398.4" y1="279.5" x2="549.9" y2="431" gradientTransform="matrix(1 0 0 -1 0 708)">
-	<stop  offset="0" style="stop-color:#511818"/>
-	<stop  offset="0.503" style="stop-color:#73000A"/>
-	<stop  offset="1" style="stop-color:#CC5252"/>
-</linearGradient>
-<rect x="464.4" y="211" class="st7" width="19.5" height="283.5"/>
+<g id="Lines">
+	<path id="Main_line" class="st1" d="M108.6,362.3V15"/>
+	<path id="Main_Line2" class="st1" d="M516.6,341.6H87.9"/>
+	<path id="_x31_" class="st1" d="M145.4,341.6v9.8"/>
+	<path id="_x32_" class="st1" d="M202.1,341.6v9.8"/>
+	<path id="_x33_" class="st1" d="M258.9,341.6v9.8"/>
+	<path id="_x34_" class="st1" d="M315.8,341.6v9.8"/>
+	<path id="_x35_" class="st1" d="M372.8,341.6v9.8"/>
+	<path id="_x36_" class="st1" d="M429.7,341.6v9.8"/>
+	<path id="_x37_" class="st1" d="M486.6,341.6v9.8"/>
+	<path id="v1" class="st1" d="M98,310.7h10.6"/>
+	<path id="v2" class="st1" d="M98,280.2h10.6"/>
+	<path id="v3" class="st1" d="M98,249.3h10.6"/>
+	<path id="v4" class="st1" d="M98,219.2h10.6"/>
+	<path id="v5_1_" class="st1" d="M98,188.4h10.6"/>
+	<path id="v6_1_" class="st2" d="M98,157.9h10.6"/>
+	<path id="v7_1_" class="st1" d="M98,127.3h10.6"/>
+	<path id="v8" class="st1" d="M98,96.9h10.6"/>
+	<path id="v9" class="st1" d="M98,64.6h10.6"/>
+	<path id="v10" class="st1" d="M98,35.9h10.6"/>
+</g>
+<text transform="matrix(1 0 0 1 183.061 363.6005)" class="st3"><tspan x="0" y="0" class="st4 st5">Gender</tspan><tspan x="0" y="13" class="st4 st5">Identity</tspan></text>
+<text transform="matrix(1 0 0 1 126.2728 363.6005)" class="st3"><tspan x="0" y="0" class="st4 st5">Multiple-</tspan><tspan x="0" y="13" class="st4 st5">Bias </tspan><tspan x="0" y="26.1" class="st4 st5">Incidents</tspan></text>
+<g id="Numbers">
+	<text transform="matrix(1 0 0 1 73.5707 314.6277)" class="st4 st6">500</text>
+	<text transform="matrix(1 0 0 1 66.9257 253.8105)" class="st4 st6">1500</text>
+	<text transform="matrix(1 0 0 1 66.9257 192.8478)" class="st4 st6">2500</text>
+	<text transform="matrix(1 0 0 1 66.9257 131.9812)" class="st4 st6">3500</text>
+	<text transform="matrix(1 0 0 1 66.9257 161.3328)" class="st4 st6">3000</text>
+	<text transform="matrix(1 0 0 1 66.9257 222.3897)" class="st4 st6">2000</text>
+	<text transform="matrix(1 0 0 1 66.9257 283.743)" class="st4 st6">1000</text>
+	<text transform="matrix(1 0 0 1 66.9257 100.3348)" class="st4 st6">4000</text>
+	<text transform="matrix(1 0 0 1 66.9257 68.0499)" class="st4 st6">4500</text>
+	<text transform="matrix(1 0 0 1 66.9257 39.3367)" class="st4 st6">5000</text>
+</g>
+<g id="Names">
+	<text transform="matrix(1 0 0 1 240.0225 363.6005)" class="st4 st5">Gender</text>
+	<text transform="matrix(1 0 0 1 292.7861 363.6005)" class="st4 st5">Disability</text>
+	<text transform="matrix(1 0 0 1 356.2031 363.6005)" class="st3"><tspan x="0" y="0" class="st4 st5">Sexual</tspan><tspan x="-12.4" y="13" class="st4 st5">Orientation</tspan></text>
+	<text transform="matrix(1 0 0 1 409.5732 363.6005)" class="st4 st5">Religion</text>
+	<text transform="matrix(1 0 0 1 472.5615 363.6005)" class="st3"><tspan x="0" y="0" class="st4 st5">Race/</tspan><tspan x="-9.6" y="13" class="st4 st5">Ethnicity/</tspan><tspan x="-7.9" y="26.1" class="st4 st5">Ancestry</tspan></text>
+</g>
+<g>
+	<rect x="189.1" y="335.9" class="st7" width="8.4" height="5.2"/>
+	<rect x="197.5" y="334.1" class="st8" width="8.4" height="7"/>
+	<rect x="205.8" y="333.9" class="st9" width="8.4" height="7.2"/>
+	<rect x="132.8" y="338.1" class="st7" width="8.4" height="3"/>
+	<rect x="141.2" y="329.5" class="st8" width="8.4" height="11.7"/>
+	<rect x="149.5" y="328.5" class="st9" width="8.4" height="12.6"/>
+	<rect x="255" y="338.7" class="st8" width="8.4" height="2.4"/>
+	<rect x="263.3" y="337.7" class="st9" width="8.4" height="3.4"/>
+	<rect x="246.6" y="339.7" class="st7" width="8.4" height="1.4"/>
+	<rect x="311.3" y="333.8" class="st8" width="8.4" height="7.3"/>
+	<rect x="302.9" y="333.8" class="st7" width="8.4" height="7.3"/>
+	<rect x="319.7" y="331.8" class="st9" width="8.4" height="9.3"/>
+	<rect x="368.3" y="264.7" class="st8" width="8.4" height="76.3"/>
+	<rect x="360" y="267.7" class="st7" width="8.4" height="73.3"/>
+	<rect x="376.7" y="263.7" class="st9" width="8.4" height="77.3"/>
+	<rect x="425.3" y="239.2" class="st8" width="8.4" height="101.9"/>
+	<rect x="433.6" y="234.5" class="st9" width="8.4" height="106.7"/>
+	<rect x="416.9" y="245.2" class="st7" width="8.4" height="95.9"/>
+	<rect x="482.3" y="48.6" class="st8" width="8.4" height="292.4"/>
+	<rect x="473.9" y="90.6" class="st7" width="8.4" height="250.4"/>
+	<rect x="490.6" y="32.7" class="st9" width="8.4" height="308.4"/>
+</g>
 </svg>
