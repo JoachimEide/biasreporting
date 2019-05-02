@@ -1,37 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 590 550" style="enable-background:new 0 0 590 550;" xml:space="preserve">
+	 viewBox="0 0 590 418" style="enable-background:new 0 0 590 418;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.4;fill:#E5CE5C;enable-background:new    ;}
-	.st1{fill:#210A0A;stroke:#515151;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#210A0A;stroke:#515151;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:url(#SVGID_1_);stroke-width:3;stroke-miterlimit:10;}
+	.st3{font-family:'OpenSans';}
+	.st4{font-size:11.6212px;}
 </style>
 <g id="Group_7" transform="translate(-70.9 -89.2)">
 	<g id="Group_5">
-		<path id="Path_4" class="st0" d="M167.8,520.3h421.3v62.9H167.8V520.3z"/>
-		<path id="Path_5" class="st0" d="M167.8,394.6h421.3v62.9H167.8V394.6z"/>
-		<path id="Path_6" class="st0" d="M167.8,268.8h421.3v62.9H167.8V268.8z"/>
+		<path id="Path_4" class="st0" d="M171.1,380.4h408v60.9h-408V380.4z"/>
+		<path id="Path_5" class="st0" d="M171.1,258.6h408v60.9h-408V258.6z"/>
+		<path id="Path_6" class="st0" d="M171.1,136.8h408v60.9h-408V136.8z"/>
 	</g>
 	<g id="Group_6">
-		<path id="Path_7" class="st1" d="M167.8,614.6V268.8"/>
-		<path id="Path_8" class="st1" d="M589.1,583.2H136.4"/>
-		<path id="Path_9" class="st1" d="M230.7,583.2V602"/>
-		<path id="Path_10" class="st1" d="M293.5,583.2V602"/>
-		<path id="Path_11" class="st1" d="M356.4,583.2V602"/>
-		<path id="Path_12" class="st1" d="M419.3,583.2V602"/>
-		<path id="Path_13" class="st1" d="M482.2,583.2V602"/>
-		<path id="Path_14" class="st1" d="M545.1,583.2V602"/>
-		<path id="Path_15" class="st1" d="M148.9,520.3h18.9"/>
-		<path id="Path_16" class="st1" d="M148.9,457.4h18.9"/>
-		<path id="Path_17" class="st1" d="M148.9,394.6h18.9"/>
-		<path id="Path_18" class="st1" d="M148.9,331.7h18.9"/>
+		<path id="Path_7" class="st1" d="M171.1,462V136.8"/>
+		<path id="Path_8" class="st1" d="M579.1,441.3H150.4"/>
+		<path id="Path_9" class="st1" d="M232,441.3v10.5"/>
+		<path id="Path_10" class="st1" d="M292.8,441.3v10.5"/>
+		<path id="Path_11" class="st1" d="M353.7,441.3v10.5"/>
+		<path id="Path_12" class="st1" d="M414.7,441.3v10.5"/>
+		<path id="Path_13" class="st1" d="M475.6,441.3v10.5"/>
+		<path id="Path_14" class="st1" d="M536.5,441.3v10.5"/>
+		<path id="Path_15" class="st1" d="M160.5,380.4h10.6"/>
+		<path id="Path_16" class="st1" d="M160.5,319.4h10.6"/>
+		<path id="Path_17" class="st1" d="M160.5,258.6h10.6"/>
+		<path id="Path_18" class="st1" d="M160.5,197.7h10.6"/>
 	</g>
 </g>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="476.269" y1="402.0523" x2="158.4681" y2="400.213" gradientTransform="matrix(1 0 0 -1 0 708)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="467.343" y1="111.4036" x2="159.3579" y2="113.1861" gradientTransform="matrix(1 0 0 1 0 118)">
 	<stop  offset="0" style="stop-color:#511818"/>
 	<stop  offset="0.503" style="stop-color:#73000A"/>
 	<stop  offset="1" style="stop-color:#CC5252"/>
 </linearGradient>
-<polyline class="st2" points="159.8,305.4 222.6,431.1 285.5,305.4 348.4,368.2 411.3,305.4 474.2,179.6 "/>
+<polyline class="st2" points="161.1,352.1 221.9,291.2 282.8,259.6 343.8,230.2 404.7,169.4 465.6,108.5 "/>
+<text transform="matrix(1 0 0 1 140.665 375.7061)" class="st3 st4">January</text>
+<text transform="matrix(1 0 0 1 72.1089 291.1611)" class="st3 st4">10</text>
+<text transform="matrix(1 0 0 1 72.1089 230.3438)" class="st3 st4">20</text>
+<text transform="matrix(1 0 0 1 72.1089 169.3809)" class="st3 st4">30</text>
+<text transform="matrix(1 0 0 1 72.1089 108.5142)" class="st3 st4">40</text>
+<text transform="matrix(1 0 0 1 197.6411 375.7061)" class="st3 st4">February</text>
+<text transform="matrix(1 0 0 1 265.6631 375.7061)" class="st3 st4">March</text>
+<text transform="matrix(1 0 0 1 331.2109 375.7061)" class="st3 st4">April</text>
+<text transform="matrix(1 0 0 1 393.2686 375.7061)" class="st3 st4">May</text>
+<text transform="matrix(1 0 0 1 453.6445 375.7061)" class="st3 st4">June</text>
 </svg>
