@@ -164,6 +164,19 @@ video {
   margin: auto;
 }
 
+#hand{
+  padding-top: 50px;
+  padding-bottom: 140px;
+  font-family: 'Libre Baskerville',serif;
+  font-weight: bold;
+  color: #73000A;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 23px;
+  width: 590px;
+  margin: auto;
+}
+
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
