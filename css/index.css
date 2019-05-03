@@ -15,6 +15,30 @@ body {
   background: #ECE9E2;
 }
 
+.containerChapters {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #d4c595;
+  height: 100vh;
+  padding: 20px;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.containerChapters a {
+  text-decoration: none;
+  color: #73000a;
+  font-weight: 700;
+}
+
+.containerChapters a:hover{
+  color:grey;
+}
+
 .navSlider{
   height: 100%;
   top:0;
@@ -31,36 +55,6 @@ body {
 #arrowSvg{
   transition: margin-left .5s;
 }
-.containerChapters{
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index:2;
-  top: 0;
-  left:0;
-  background-color: #D4C595;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top:60px;
-}
-
-.containerChapters a {
-  display: flex;
-  padding:50px;
-  text-decoration: none;
-  font-size: 1em;
-  color: #5C5120;
-  font-weight: 700;
-  font-family: 'Libre Baskerville',serif;
-  line-height: 1.5;
-  left: 0;
-  opacity: 1;
-}
-
-.containerChapters a:hover{
-  color:grey;
-}
-
 
 
 .wrapper{
