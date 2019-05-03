@@ -23,16 +23,32 @@ body {
   height: 100vh;
   padding: 20px;
   z-index: 1;
+  width: 10%;
 
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
 
+.ic-wrapp {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .containerChapters a {
   text-decoration: none;
   color: #323234;
   font-weight: 450;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#icons {
+  height: 30px;
+  margin: auto;
+  left: 0;
 }
 
 .containerChapters a:hover{
