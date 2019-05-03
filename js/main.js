@@ -4,7 +4,6 @@ function openNav(){
   var arrowSvg = document.getElementById('arrowSvg')
   arrowSvg.onclick = function(){
     document.getElementById("sideNav").style.width = "250px";
-    document.getElementById('wrap').style.marginLeft = "250px";
     arrowSvg.style.marginLeft = "190px"
     arrowSvg.setAttribute("src","pictures/left-arrow.png")
     closeNav()
@@ -14,7 +13,6 @@ function openNav(){
 function closeNav(){
   arrowSvg.onclick = function(){
     var sideNav = document.getElementById("sideNav").style.width = "0px";
-    document.getElementById('wrap').style.marginLeft = "0px";
     arrowSvg.style.marginLeft = "0px"
     arrowSvg.setAttribute("src","pictures/right-arrow.png")
     openNav()
