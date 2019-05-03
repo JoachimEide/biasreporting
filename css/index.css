@@ -262,3 +262,8 @@ textarea{
   color: #73000A;
 
 }
+
+::cue{
+  background-color:rgba(00,00,00,0.5);
+  font-family: "Open Sans", sans-serif;
+}
