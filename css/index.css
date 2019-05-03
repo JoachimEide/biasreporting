@@ -19,7 +19,7 @@ body {
   position: fixed;
   left: 0px;;
   top: 0;
-  background: #d4c595;
+  background: #fbfbfb;
   height: 100vh;
   padding: 20px;
   z-index: 1;
@@ -31,8 +31,8 @@ body {
 
 .containerChapters a {
   text-decoration: none;
-  color: #73000a;
-  font-weight: 700;
+  color: #323234;
+  font-weight: 450;
 }
 
 .containerChapters a:hover{

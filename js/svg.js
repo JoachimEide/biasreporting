@@ -4,4 +4,6 @@ window.addEventListener("load", function() {
   console.log(svgGraph1);
   const svgGraph2 = document.getElementById('graph2').contentDocument;
   console.log(svgGraph2);
+  let svg = svgGraph2.getElementById('ANIME');
+  console.log(svg);
 });

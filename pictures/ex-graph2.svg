@@ -9,17 +9,16 @@
 	.st3{font-family:'OpenSans';}
 	.st4{font-size:11.6212px;}
 	.st5{font-size:10.8544px;}
-	.st6{enable-background:new    ;}
-	.st7{fill:#CC5252;}
-	.st8{fill:#73000A;}
-	.st9{fill:#511818;}
+	.st6{fill:#CC5252;}
+	.st7{fill:#73000A;}
+	.st8{fill:#511818;}
 </style>
 <rect x="258.9" y="60.4" class="st0" width="257.7" height="24.9"/>
 <g id="Squares">
 	<path id="sq5" class="st0" d="M108.6,106.1h408v30.4h-408L108.6,106.1L108.6,106.1z"/>
 	<path id="sq4" class="st0" d="M109.2,167.1h408v30.4h-408L109.2,167.1L109.2,167.1z"/>
 	<path id="sq3" class="st0" d="M108.6,228.2h408v30.4h-408L108.6,228.2L108.6,228.2z"/>
-	<path id="sq2" class="st0" d="M108.6,289.5h408v30.5h-408L108.6,289.5L108.6,289.5z"/>
+	<path id="sq2" class="st0" d="M108.6,289.5h408V320h-408L108.6,289.5L108.6,289.5z"/>
 	<path id="sq1" class="st0" d="M108.6,350.5h408v30.4h-408L108.6,350.5L108.6,350.5z"/>
 </g>
 <g id="Lines">
@@ -58,38 +57,44 @@
 <g id="Names">
 	<text transform="matrix(1 0 0 1 240.0225 433.8675)" class="st3 st5">Gender</text>
 	<text transform="matrix(1 0 0 1 292.7861 433.8675)" class="st3 st5">Disability</text>
-	<text transform="matrix(1 0 0 1 356.2031 433.8675)" class="st6"><tspan x="0" y="0" class="st3 st5">Sexual</tspan><tspan x="-12.4" y="13" class="st3 st5">Orientation</tspan></text>
+	<text transform="matrix(1 0 0 1 356.2031 433.8675)" class="st3 st5">Sexual</text>
+	<text transform="matrix(1 0 0 1 343.8031 446.8675)" class="st3 st5">Orientation</text>
 	<text transform="matrix(1 0 0 1 409.5732 433.8675)" class="st3 st5">Religion</text>
-	<text transform="matrix(1 0 0 1 472.5615 433.8675)" class="st6"><tspan x="0" y="0" class="st3 st5">Race/</tspan><tspan x="-9.6" y="13" class="st3 st5">Ethnicity/</tspan><tspan x="-7.9" y="26.1" class="st3 st5">Ancestry</tspan></text>
-	<text transform="matrix(1 0 0 1 183.061 433.8675)" class="st6"><tspan x="0" y="0" class="st3 st5">Gender</tspan><tspan x="0" y="13" class="st3 st5">Identity</tspan></text>
-	<text transform="matrix(1 0 0 1 126.2728 433.8675)" class="st6"><tspan x="0" y="0" class="st3 st5">Multiple-</tspan><tspan x="0" y="13" class="st3 st5">Bias </tspan><tspan x="0" y="26.1" class="st3 st5">Incidents</tspan></text>
+	<text transform="matrix(1 0 0 1 472.5615 433.8675)" class="st3 st5">Race/</text>
+	<text transform="matrix(1 0 0 1 462.9615 446.8675)" class="st3 st5">Ethnicity/</text>
+	<text transform="matrix(1 0 0 1 464.6615 459.9675)" class="st3 st5">Ancestry</text>
+	<text transform="matrix(1 0 0 1 183.061 433.8675)" class="st3 st5">Gender</text>
+	<text transform="matrix(1 0 0 1 183.061 446.8675)" class="st3 st5">Identity</text>
+	<text transform="matrix(1 0 0 1 126.2728 433.8675)" class="st3 st5">Multiple-</text>
+	<text transform="matrix(1 0 0 1 126.2728 446.8675)" class="st3 st5">Bias </text>
+	<text transform="matrix(1 0 0 1 126.2728 459.9675)" class="st3 st5">Incidents</text>
 </g>
-<g>
-	<rect x="189.1" y="406.2" class="st7" width="8.4" height="5.2"/>
-	<rect x="197.5" y="404.3" class="st8" width="8.4" height="7"/>
-	<rect x="205.8" y="404.2" class="st9" width="8.4" height="7.2"/>
-	<rect x="132.8" y="408.4" class="st7" width="8.4" height="3"/>
-	<rect x="141.2" y="399.7" class="st8" width="8.4" height="11.7"/>
-	<rect x="149.5" y="398.8" class="st9" width="8.4" height="12.6"/>
-	<rect x="255" y="409" class="st8" width="8.4" height="2.4"/>
-	<rect x="263.3" y="408" class="st9" width="8.4" height="3.4"/>
-	<rect x="246.6" y="410" class="st7" width="8.4" height="1.4"/>
-	<rect x="311.3" y="404.1" class="st8" width="8.4" height="7.3"/>
-	<rect x="302.9" y="404.1" class="st7" width="8.4" height="7.3"/>
-	<rect x="319.7" y="402.1" class="st9" width="8.4" height="9.3"/>
-	<rect x="368.3" y="335" class="st8" width="8.4" height="76.3"/>
-	<rect x="360" y="338" class="st7" width="8.4" height="73.3"/>
-	<rect x="376.7" y="334" class="st9" width="8.4" height="77.3"/>
-	<rect x="425.3" y="309.5" class="st8" width="8.4" height="101.9"/>
-	<rect x="433.6" y="304.7" class="st9" width="8.4" height="106.7"/>
-	<rect x="416.9" y="315.5" class="st7" width="8.4" height="95.9"/>
-	<rect x="482.3" y="118.9" class="st8" width="8.4" height="292.4"/>
-	<rect x="473.9" y="160.9" class="st7" width="8.4" height="250.4"/>
-	<rect x="490.6" y="102.9" class="st9" width="8.4" height="308.4"/>
+<g id="ANIME">
+	<rect x="189.1" y="406.2" class="st6" width="8.4" height="5.2"/>
+	<rect x="197.5" y="404.3" class="st7" width="8.4" height="7"/>
+	<rect x="205.8" y="404.2" class="st8" width="8.4" height="7.2"/>
+	<rect x="132.8" y="408.4" class="st6" width="8.4" height="3"/>
+	<rect x="141.2" y="399.7" class="st7" width="8.4" height="11.7"/>
+	<rect x="149.5" y="398.8" class="st8" width="8.4" height="12.6"/>
+	<rect x="255" y="409" class="st7" width="8.4" height="2.4"/>
+	<rect x="263.3" y="408" class="st8" width="8.4" height="3.4"/>
+	<rect x="246.6" y="410" class="st6" width="8.4" height="1.4"/>
+	<rect x="311.3" y="404.1" class="st7" width="8.4" height="7.3"/>
+	<rect x="302.9" y="404.1" class="st6" width="8.4" height="7.3"/>
+	<rect x="319.7" y="402.1" class="st8" width="8.4" height="9.3"/>
+	<rect x="368.3" y="335" class="st7" width="8.4" height="76.3"/>
+	<rect x="360" y="338" class="st6" width="8.4" height="73.3"/>
+	<rect x="376.7" y="334" class="st8" width="8.4" height="77.3"/>
+	<rect x="425.3" y="309.5" class="st7" width="8.4" height="101.9"/>
+	<rect x="433.6" y="304.7" class="st8" width="8.4" height="106.7"/>
+	<rect x="416.9" y="315.5" class="st6" width="8.4" height="95.9"/>
+	<rect x="482.3" y="118.9" class="st7" width="8.4" height="292.4"/>
+	<rect x="473.9" y="160.9" class="st6" width="8.4" height="250.4"/>
+	<rect x="490.6" y="102.9" class="st8" width="8.4" height="308.4"/>
 </g>
-<rect x="326.1" y="66.3" class="st7" width="12.9" height="12.9"/>
-<rect x="406.1" y="66.3" class="st8" width="12.9" height="12.9"/>
-<rect x="486.1" y="65.9" class="st9" width="12.9" height="12.9"/>
+<rect x="326.1" y="66.3" class="st6" width="12.9" height="12.9"/>
+<rect x="406.1" y="66.3" class="st7" width="12.9" height="12.9"/>
+<rect x="486.1" y="65.9" class="st8" width="12.9" height="12.9"/>
 <text transform="matrix(1 0 0 1 273.808 76.128)" class="st3 st5">Incidents</text>
 <text transform="matrix(1 0 0 1 353.808 76.128)" class="st3 st5">Offenses</text>
 <text transform="matrix(1 0 0 1 433.808 75.7477)" class="st3 st5">Victims</text>
