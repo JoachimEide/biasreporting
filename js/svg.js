@@ -1,30 +1,57 @@
 
 window.addEventListener("load", function() {
-  const illustration1 = document.getElementById('handA').contentDocument;
-  console.log(illustration1);
-  let svg1 = illustration1.getElementById("handAnime");
-  var chart = anime.timeline({
+  const illustration1 = anime.timeline({
     easing: 'easeOutExpo',
-    duration: 4000,
-  });
-  chart.add({
+    duration: 2500,
+    loop: true,
+    });
+    illustration1.add({
+      }).add({
+        targets: '#illustration1 .st0',
+        opacity: 1,
+      })
+    illustration1.add({
     }).add({
-      targets: '.st1',
-      opacity: 1,
-    })
-    chart.add({
-    }).add({
-      targets: '.st2',
+      targets: '#illustration1 .st2',
       strokeDashoffset: [anime.setDashoffset, 0],
       direction: 'alternate',
       delay: 0,
     }, 1000)
 
-      paths = new Array();
-    [].slice.call(svg1.querySelectorAll('.st0 path')).forEach(function(path, i) {
-      paths[i] = path;
-      var leng = paths[i].getTotalLength();
-      paths[i].style.strokeDasharray = leng + ' ' + leng;
-      paths[i].style.strokeDashoffset = leng;
-    });
-  });
+    const illustration2 = anime.timeline({
+      easing: 'easeOutExpo',
+      duration: 2500,
+      loop: true,
+      });
+      illustration2.add({
+        }).add({
+          targets: '#illustration2 .st4',
+          opacity: 1,
+        })
+      illustration2.add({
+      }).add({
+        targets: '#illustration2 .st3',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'alternate',
+        delay: 0,
+      }, 1000)
+      const illustration3 = anime.timeline({
+        easing: 'easeOutExpo',
+        duration: 2500,
+        loop: true,
+        });
+        illustration3.add({
+          }).add({
+            targets: '#illustration3 .st6',
+            opacity: 1,
+          })
+        illustration3.add({
+        }).add({
+          targets: '#illustration3 .st5',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'alternate',
+          delay: 0,
+        }, 1000)
+
+
+});
