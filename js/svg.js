@@ -42,12 +42,12 @@ window.addEventListener("load", function() {
         });
         illustration3.add({
           }).add({
-            targets: '#illustration2 .st6',
+            targets: '#illustration3 .st6',
             opacity: 1,
           })
         illustration3.add({
         }).add({
-          targets: '#illustration2 .st5',
+          targets: '#illustration3 .st5',
           strokeDashoffset: [anime.setDashoffset, 0],
           direction: 'alternate',
           delay: 0,
