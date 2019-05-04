@@ -222,6 +222,12 @@ object{
   margin: auto;
 }
 
+svg {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
 /*------------------------*/
 
 .modal {
