@@ -12,27 +12,95 @@ body {
 
 .wrapper {
   position: relative;
-  background: #ECE9E2;
-  padding-left: 15%; /*Dette er egentlig en dårlig ide, men funker foreløpig*/
+  background: #fbfbfb;
 }
 
 .containerChapters {
   position: fixed;
-
-  /*endring i js*/
-  left: 0;
-
+  left: 0px;;
   top: 0;
-  background: #D4C595;
+  background: #fbfbfb;
   height: 100vh;
   padding: 20px;
-  z-index: 2;
+  z-index: 1;
+  width: 10%;
 
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
 
+.ic-wrapp {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerChapters a {
+  text-decoration: none;
+  color: #323234;
+  font-weight: 450;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#icons {
+  height: 30px;
+  margin: auto;
+  left: 0;
+}
+
+.containerChapters a:hover{
+  color:grey;
+}
+
+.navSlider{
+  height: 100%;
+  top:0;
+  left: 0;
+  width: 40px;
+  position: fixed;
+  background-color: #D4C595;
+}
+#arrow{
+  text-align: center;
+  padding-top: 350px;
+}
+
+#arrowSvg{
+  transition: margin-left .5s;
+}
+
+
+.wrapper{
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .containerChapters {padding-top: 15px;}
+  .containerChapters a {font-size: 18px;}
+}
+
+/*
+.containerChapters {
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+  background: #D4C595;
+  height: 100%;
+  padding: 20px;
+  z-index: 2;
+  overflow-x:
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+*/
+/*
 .containerChapters a{
   display: block;
   text-decoration: none;
@@ -40,17 +108,13 @@ body {
   font-weight: 700;
   font-family: 'Libre Baskerville',serif;
   font-size: 1em;
+  line-height: 1.5;
 }
-
-
-#arrow {
-  display: block;
-  height: 30px;
-}
-
+*/
 .header,
 .contentArticle {
-  width: 590px;
+  position: relative;
+  width: 100%;
   margin: auto;
   max-width: 90%;
   line-height: 30px;
@@ -58,7 +122,7 @@ body {
 
 .title{
   font-family: 'Libre Baskerville', serif;
-  color: #73000A;
+  color: #323234;
   font-size: 5em;
   line-height: 1.5;
 }
@@ -78,19 +142,23 @@ body {
 .line {
   height: 4px;
   width: 590px;
-  background: linear-gradient(to right, #e5ce5c, #e1e5cf);
+  background: linear-gradient(to right, #ebcc95, #e4b669);
   transform: rotate(180deg);
+  margin: auto;
 }
 
 .lineupper {
   height: 4px;
   width: 590px;
-  background: linear-gradient(to left, #e5ce5c, #e1e5cf);
-  transform: rotate(-180deg)
+  background: linear-gradient(to left, #ebcc95, #e4b669);
+  transform: rotate(-180deg);
+  margin: auto;
 }
 
 video {
-  width: 100%;
+  display: block;
+  width: 70%;
+  margin: auto;
 }
 
 .quote{
@@ -102,23 +170,44 @@ video {
   padding-top: 140px;
   padding-bottom: 140px;
   font-size: 23px;
+  width: 590px;
+  margin: auto;
+}
+
+#hand{
+  padding-top: 50px;
+  padding-bottom: 140px;
+  font-family: 'Libre Baskerville',serif;
+  font-weight: bold;
+  color: #73000A;
+  line-height: 2.5;
+  text-align: center;
+  font-size: 23px;
+  width: 590px;
+  margin: auto;
 }
 
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
   font-size: 38px;
-  color:#73000A;
+  color:#323234;
   line-height: 43px;
+  width: 590px;
+  margin: auto;
+  padding: 30px 0px;
 }
 
 p{
   font-family: 'Open Sans', sans-serif;
   color: #282828;
+  width: 590px;
+  margin: auto;
+  padding: 1em 0px;
 }
 
 .padding{
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 
@@ -127,12 +216,18 @@ p{
   width: 100%;
 }
 
+object{
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
 /*------------------------*/
 
 .modal {
   display: block;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   padding-left: 80%;
   left: 10px;
   top: -2px;
@@ -160,4 +255,31 @@ p{
   color: #73000A;
   font-weight: bold;
   font-size: 12px;
+}
+
+.mailForm{
+  width: 590px;
+  margin: auto;
+}
+
+.input{
+padding: 100px;
+}
+
+textarea{
+  margin: auto;
+  height: 200px;
+  width: 100%
+}
+
+.system{
+  font-family: 'Libre Baskerville',serif;
+  font-weight: bold;
+  color: #73000A;
+
+}
+
+::cue{
+  background-color:rgba(00,00,00,0.5);
+  font-family: "Open Sans", sans-serif;
 }

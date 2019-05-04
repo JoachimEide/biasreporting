@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+    font: normal 1.25em/1.5 Arial, sans-serif;
+}
+:focus {
+    outline: 1px dotted #EF9600;
+    outline-offset: 1px;
+}
+
+.slideshow {
+	position: relative;
+}
+
+.slideshow > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.slideshow > ul > li {
+	/* Only WebKit requires a prefix */
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.slideshow > ul > li.is-before,
+.slideshow > ul > li.is-after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	opacity: 0;
+}
+
+.slideshow > ul > li.is-current {
+	position: relative;
+	z-index: 1;
+	opacity: 1;
+}
+
+.slideshow > ul > li > img {
+	min-width: 100%;
+	height: auto;
+}
+
+.slideshow .next,
+.slideshow .prev {
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	margin-top: -1em;
+	padding: .5em;
+	border: 0;
+	font-size: 100%;
+	line-height: 1;
+	text-decoration: none;
+	color: white;
+	background: rgba(0, 0, 0, .25);
+	cursor: pointer;
+}
+
+.slideshow .next {
+	right: 0;
+}
+
+.slideshow .prev {
+	left: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="demo-wrapper">
+    <div class="slideshow" data-directive="slideshow">
+        <ul>
+            <li>
+                <img src="http://placehold.it/300x300/F00/FFF" width="600px" height="500px">
+            </li>
+            <li>
+                <img src="http://placehold.it/300x300/0F0/FFF" width="600px" height="500px">
+            </li>
+            <li>
+                <img src="http://placehold.it/300x300/00F/FFF" width="600px" height="500px">
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+  (function (name, context, definition) {
+    if (typeof define === 'function' && define.amd) {
+        define(definition);
+    }
+    else if (typeof module !== 'undefined' && module.exports) {
+        module.exports = definition();
+    }
+    else {
+        context[name] = definition();
+    }
+})('Slideshow', this, function() {
+
+    /**
+     * Slideshow
+     * @constructor
+     * @param {HTMLElement} element
+     */
+    function Slideshow(element) {
+        this.target = element;
+        this.runner = element.children[0];
+        this.frames = element.children[0].children;
+
+        if (!this.current) {
+            this._init();
+        }
+    }
+
+    /**
+     * Init
+     * @private
+     */
+    Slideshow.prototype._init = function() {
+        var self = this;
+
+        this.current = 0;
+        this.maximum = this.frames.length - 1;
+
+        // Add next and previous buttons
+        this.btnNext = document.createElement('button');
+        this.btnPrev = document.createElement('button');
+        this.btnNext.type = this.btnPrev.type = 'button';
+        this.btnNext.className = 'next';
+        this.btnPrev.className = 'prev';
+        this.btnNext.innerHTML = 'Next slide';
+        this.btnPrev.innerHTML = 'Previous slide';
+
+        this.btnNext.onclick = function() {
+            self.to(self.current + 1);
+        };
+
+        this.btnPrev.onclick = function() {
+            self.to(self.current - 1);
+        };
+
+        this.target.appendChild(this.btnNext);
+        this.target.appendChild(this.btnPrev);
+
+        this.keyupHandler = function(e) {
+            switch (e.keyCode) {
+                case 37:
+                    self.to(self.current - 1);
+                    break;
+                case 39:
+                    self.to(self.current + 1);
+                    break;
+            }
+        };
+
+        if (this.target.addEventListener) {
+            this.target.addEventListener('keyup', this.keyupHandler, true);
+        }
+        else {
+            this.target.attachEvent('onkeyup', this.keyupHandler);
+        }
+
+        this.to(this.current);
+    };
+
+    /**
+     * Loop
+     * @private
+     * @param {Number} x
+     */
+    Slideshow.prototype._loop = function(x) {
+        if (x > this.maximum) {
+            x = 0;
+        }
+        else if (x < 0) {
+            x = this.maximum;
+        }
+
+        return x;
+    };
+
+    /**
+     * To
+     * @param {Number} x
+     */
+    Slideshow.prototype.to = function(x) {
+        x = this._loop(x);
+
+        if (this.frames[x]) {
+            this.before = this._loop(x - 1);
+            this.current = x;
+            this.after = this._loop(x + 1);
+
+            this._update();
+        }
+    };
+
+    /**
+     * Update
+     * @private
+     */
+    Slideshow.prototype._update = function() {
+        var classBefore = ' is-before ';
+        var classCurrent = ' is-current ';
+        var classAfter = ' is-after ';
+        var classRegex = /is\-before|is\-current|is\-after/g;
+
+        for (var i = 0, len = this.frames.length; i < len; i++) {
+            this.frames[i].className = this.frames[i].className.replace(classRegex, '');
+        }
+
+        this.frames[this.before].className+= classBefore;
+        this.frames[this.current].className+= classCurrent;
+        this.frames[this.after].className+= classAfter;
+    };
+
+    /**
+     * Teardown
+     */
+    Slideshow.prototype.teardown = function() {
+        this.target.removeChild(this.btnNext);
+        this.target.removeChild(this.btnPrev);
+
+        if (this.target.removeEventListener) {
+            this.target.removeEventListener('keyup', this.keyupHandler, true);
+        }
+        else {
+            this.target.detachEvent('onkeyup', this.keyupHandler);
+        }
+
+        delete this.after;
+        delete this.before;
+        delete this.current;
+        delete this.btnNext;
+        delete this.btnPrev;
+    };
+
+    return Slideshow;
+
+});
+
+/* Init */
+var slideshows = document.querySelectorAll('[data-directive=slideshow]');
+
+for (var i = 0, len = slideshows.length; i < len; i++) {
+    new Slideshow(slideshows[i]);
+}
+
+</script>
+  </body>
+</html>

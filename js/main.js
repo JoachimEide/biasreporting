@@ -19,12 +19,66 @@ function showModal(){
   })
 }
 
-window.onload= setTimeout(showModal,3500);
+function closeNav(){
+  arrowSvg.onclick = function(){
+    var sideNav = document.getElementById("sideNav").style.width = "0px";
+    arrowSvg.style.marginLeft = "0px"
+    arrowSvg.setAttribute("src","pictures/right-arrow.png")
+    openNav()
+  }
+}
+
+// function openNav(){
+//   var sideNav= document.getElementById("sideNav") /*.style.width = "250px";*/
+//   var wrap = document.getElementById('wrap')/*.style.marginLeft = "250px";*/
+//   var arrowSvg = document.getElementById('arrowSvg') /*.style.marginLeft="190px";*/
+//   document.getElementById('arrow').addEventListener('click', function(evt){
+//     var target = evt.target;
+//     if(target.id === "arrowSvg"){
+//       sideNav.style.width = "250px";
+//       wrap.style.marginLeft = "250px"
+//       arrowSvg.style.marginLeft="190px";
+//       arrowSvg.setAttribute("src", 'pictures/left-arrow.png');
+//       arrowSvg.id = "backArrow"
+//     } else if (target.id === "backArrow") {
+//       sideNav.style.width = "0px";
+//       wrap.style.marginLeft = "0px";
+//       backArrow.style.marginRight ="0px"
+//       backArrow.setAttribute("src", 'pictures/right-arrow.png');
+//       backArrow.id = "arrowSvg"
+//     }
+//   })
+//
+
+// function showModal(){
+//   var modal = document.getElementById('myModal');
+//   var sliderdm = document.getElementById('sliderdm')
+//   document.getElementById('slider').addEventListener('click',function(evt) {
+//     var target = evt.target;
+//     if(target.id === 'sliderdm'){
+//       document.getElementById('stylesheet').setAttribute("href","css/dark.css")
+//       sliderdm.setAttribute("src",'pictures/dm-button-change.svg')
+//       var modalp =  document.getElementById('modalp');
+//       modalp.innerHTML = "Hope you like it! You can always change back <br> <br>"
+//
+//       sliderdm.id = "sliderchange"
+//     }else if (target.id ==="sliderchange") {
+//       document.getElementById('stylesheet').setAttribute("href","css/index.css")
+//       sliderdm.setAttribute("src",'pictures/dm-button.svg')
+//       modal.style.display = "none";
+//     }
+//   })
+// }
+//
+// window.onload= setTimeout(showModal,3500);
+
 
 const removeSideBar = () => {
+  let wrapper = document.getElementById('wrap');
+  wrapper.style.paddingleft = '0%';
   let chapters = document.querySelector(".containerChapters").children;
   for (let i = 0; i < chapters.length; i++){
-    if (chapters[i].style.display === 'none'){
+    if (chapters[i].style.left === 'none'){
         //Her vil vi egentlig gjøre animasjon av siderbar
         chapters[i].style.display = 'block';
     } else {
