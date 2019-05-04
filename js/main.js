@@ -1,3 +1,4 @@
+/*
 function showModal(){
   var modal = document.getElementById('myModal');
   var sliderdm = document.getElementById('sliderdm')
