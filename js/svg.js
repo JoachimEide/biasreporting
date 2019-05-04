@@ -35,6 +35,7 @@ window.addEventListener("load", function() {
         direction: 'alternate',
         delay: 0,
       }, 1000)
+
       const illustration3 = anime.timeline({
         easing: 'easeOutExpo',
         duration: 2500,
@@ -53,5 +54,40 @@ window.addEventListener("load", function() {
           delay: 0,
         }, 1000)
 
+      const illustration4 = anime.timeline({
+        easing: 'easeOutExpo',
+        duration: 2500,
+        loop: true,
+        });
+        illustration4.add({
+          }).add({
+            targets: '#illustration4 .st8',
+            opacity: 1,
+          })
+        illustration4.add({
+        }).add({
+          targets: '#illustration4 .st7',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'alternate',
+          delay: 0,
+        }, 1000)
+
+      const illustration5 = anime.timeline({
+        easing: 'easeOutExpo',
+        duration: 2500,
+        loop: true,
+        });
+        illustration5.add({
+          }).add({
+            targets: '#illustration5 .st11',
+            opacity: 1,
+          })
+        illustration5.add({
+        }).add({
+          targets: '#illustration5 .st10',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'alternate',
+          delay: 0,
+        }, 1000)
 
 });
