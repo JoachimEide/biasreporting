@@ -1,5 +1,14 @@
 
 window.addEventListener("load", function() {
+  lottie.loadAnimation({
+  container: document.getElementById('BB_title'), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'BB_title.json' // the path to the animation json
+});
+
+
   const illustration1 = anime.timeline({
     easing: 'easeOutExpo',
     duration: 2500,
