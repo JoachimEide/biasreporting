@@ -211,6 +211,9 @@ p{
   font-size: 17px;
   line-height: 1.8em;
 }
+#back{
+  text-align: center;
+}
 
 .padding{
   height: 90px;
@@ -398,7 +401,7 @@ video::-webkit-media-controls-panel{
   padding: 10px 19px;
   font-size: 17px;
   line-height: 1.471;
-  width: 30%;
+  width: 20%;
   border-radius: 3px;
   text-transform: uppercase;
   margin: auto;
