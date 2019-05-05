@@ -126,6 +126,7 @@ window.addEventListener("load", function() {
         direction: 'alternate',
         delay: 0,
       }, 1000)
+<<<<<<< HEAD
 
     const graph = anime.timeline({
       easing: 'easeInOutExpo',
@@ -140,6 +141,22 @@ window.addEventListener("load", function() {
         delay: 0,
       }, 1000)
 
+=======
+
+    const graph = anime.timeline({
+      easing: 'easeInOutExpo',
+      duration: 5000,
+      loop: true,
+      });
+      graph.add({
+      }).add({
+        targets: '#graph1 #animeLine',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'linear',
+        delay: 0,
+      }, 1000)
+
+>>>>>>> be5740c65b245f6f177afc48eeaf17f106295fb1
     const graph2 = anime.timeline({
       duration: 250,
       loop: true,
@@ -167,11 +184,19 @@ window.addEventListener("load", function() {
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
   console.log('Offset:' + offset);
+<<<<<<< HEAD
   if (offset > 995 && offset < 1569){
     console.log('Video1');
   }
   if (offset > 3160 && offset < 3829){
     console.log('illustration1');
+=======
+  if (offset > 375){
+
+  }
+  if (offset > 539 && offset < 750){
+
+>>>>>>> be5740c65b245f6f177afc48eeaf17f106295fb1
   }
   if (offset > 750){
 
