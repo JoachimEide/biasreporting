@@ -436,7 +436,7 @@ video::-webkit-media-controls-panel{
   opacity: 1;
   border: 0;
   border-bottom: 2px solid #bdc3c7;
-  border-radius: 0;
+  border-radius: 5px;
   background: #FBFBFB;
   font-size: 15px;
   line-height: 1.467;
