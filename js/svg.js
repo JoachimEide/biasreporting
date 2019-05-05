@@ -20,7 +20,8 @@ illustration1.add({
 const illustration2 = anime.timeline({
   easing: 'easeOutExpo',
   duration: 2500,
-  loop: true,
+  loop: false,
+  autoplay: false,
   });
   illustration2.add({
     }).add({
@@ -38,7 +39,7 @@ const illustration2 = anime.timeline({
 const illustration3 = anime.timeline({
   easing: 'easeOutExpo',
   duration: 2500,
-  loop: true,
+  loop: false,
   autoplay: false,
   });
   illustration3.add({
@@ -57,7 +58,7 @@ const illustration3 = anime.timeline({
 const illustration4 = anime.timeline({
   easing: 'easeOutExpo',
   duration: 2500,
-  loop: true,
+  loop: false,
   autoplay: false,
   });
   illustration4.add({
@@ -95,7 +96,7 @@ const illustration5 = anime.timeline({
 const graph = anime.timeline({
   easing: 'easeInOutExpo',
   duration: 5000,
-  loop: true,
+  loop: false,
   autoplay: false,
   });
   graph.add({
@@ -107,23 +108,24 @@ const graph = anime.timeline({
   }, 1000)
 
 const graph2 = anime.timeline({
-  duration: 250,
-  loop: true,
+  duration: 5000,
+  loop: false,
   autoplay: false,
+  easing: 'linear',
   });
-  graph.add({
+  graph2.add({
   }).add({
     targets: '#graph2 .g2-line',
     strokeDashoffset: [anime.setDashoffset, 0],
     direction: 'linear',
   }, 250)
-  graph.add({
+  graph2.add({
   }).add({
     targets: '#graph2 .g2-line2',
     strokeDashoffset: [anime.setDashoffset, 0],
     direction: 'linear',
   }, 250)
-  graph.add({
+  graph2.add({
   }).add({
     targets: '#graph2 .g2-line3',
     strokeDashoffset: [anime.setDashoffset, 0],
@@ -193,6 +195,25 @@ window.addEventListener("scroll", function(){
     vid2.autoplay = false;
     vid2.pause();
   }
+  if (offset > 6000 && offset < 6118){
+    graph.play();
+  }
+  if (offset > 7000 && offset < 7200){
+    illustration2.play();
+  }
+  if (offset > 8000 && offset < 8125){
+    illustration3.play();
+  }
+  if (offset > 8950 && offset < 9150){
+    illustration4.play();
+  }
+  if (offset > 9860 && offset < 9941){
+    illustration5.play();
+  }
+  if (offset > 11900 && offset < 12100){
+    graph2.play();
+  }
+
   if (offset > 16094 && offset < 16716){
     let vid3 = document.getElementById('vid3');
     vid3.autoplay = true;
