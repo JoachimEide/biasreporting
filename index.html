@@ -11,26 +11,10 @@
   <body id="body">
     <div id="wrap" class="wrapper">
 
-      <!--
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <p id=modalp>Looks like the sun has gone down. Would you like to read in dark mode?</p>
-          <div id="slider">
-            <input type="image" id="sliderdm" src="pictures/dm-button.svg" widt="76px" height="30px">
-          </div>
-        </div>
-      </div>
-
-      <div class="navSlider">
-        <div id="arrow">
-          <img onclick="openNav()" id="arrowSvg" src="pictures/right-arrow.png" onclick="closeNav()">
-        </div>
-      </div>
-    -->
 
     <div id="sideNav" class="containerChapters">
    <!-- her lå Nav slider -->
-   <div class="ic-wrapp">
+    <a class="ic-wrapp" href="#studentexperience" style="text-decoration:none;">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
      <g>
@@ -41,9 +25,10 @@
      	<circle class="circle" cx="15.9" cy="16.2" r="15"/>
      </g>
      </svg>
-     <a class="chapter" href="#studentexperience"> Student<br/>experiences</a>
-   </div>
-   <div class="ic-wrapp">
+     <p class="chapter"> Student<br/>experiences</p>
+   </a>
+
+   <a class="ic-wrapp" href="#biasSystemElon" style="text-decoration:none;">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
      <g>
@@ -54,9 +39,9 @@
      		 M7.6,17l2.7-5.9L13,17H7.6z M21.5,8.4l2.7,5.9h-5.3L21.5,8.4z"/>
      </g>
      </svg>
-     <a class="chapter" href="#biasSystemElon"> The Bias<br/>System at Elon</a>
-   </div>
-   <div class="ic-wrapp">
+     <p class="chapter"> The Bias<br/>System at Elon</p>
+   </a>
+   <a class="ic-wrapp" href="#advocates" style="text-decoration:none;">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
      <circle class="circle" cx="16" cy="16" r="15"/>
@@ -77,9 +62,9 @@
      	c0.9,0.9,1.8,1.8,2.7,2.7c0.8,0.8,1.6,1.6,2.4,2.4C21.5,20.3,21.8,20.6,21.4,21z M26.6,16.4c-2-2-4-4-6-6c0.5-0.5,1.2-1.1,1.8-1.7
      	c2,2,4,4,6,6C27.8,15.2,27.2,15.8,26.6,16.4z"/>
      </svg>
-     <a class="chapter" href="#advocates"> Advovates<br/>and resources</a>
-   </div>
-   <div class="ic-wrapp">
+     <p class="chapter"> Advovates<br/>and resources</p>
+   </a>
+   <a class="ic-wrapp" href="#improvement" style="text-decoration:none;">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
      <circle class="circle" cx="16" cy="16" r="15"/>
@@ -105,8 +90,8 @@
      	c-0.2,0-0.3-0.1-0.3-0.2v-0.1c0-0.1,0.2-0.2,0.3-0.2h6.3c0.2,0,0.3,0.1,0.3,0.2V16H20.7z M20.7,14.2c0,0.1-0.1,0.2-0.3,0.2h-5.2
      	c-0.2,0-0.3-0.1-0.3-0.2v-0.1c0-0.1,0.1-0.2,0.3-0.2h5.2c0.2,0,0.3,0.1,0.3,0.2V14.2z"/>
      </svg>
-     <a class="chapter" href="#improvement"> Room for<br/>improvement</a>
-   </div>
+     <p class="chapter">Room for<br/>improvement</p>
+   </a>
 
 
 
@@ -15763,6 +15748,7 @@
                 <video autoplay controls muted>
                   <source src="/Videos/Elder_vid_2v2.mp4" type="video/mp4" />
                   <source src="movie.ogg" type="video/ogg" />
+                  <track kind="subtitles" src="Videos/Eldervid2.vtt" srclang="en" default>
                   <div class="soundBtn">
                     <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
                   </div>
@@ -15808,20 +15794,27 @@
             <div class="paddingbottom">
             </div>
 
-            <div class="mailForm">
+            <div class="form">
               <h2>Do you want to contribute with a solution?</h2>
-              <form action="" id="form">
-                <input type="text" placeholder="Name" name="name" required />
+                <h3 id="formintro">Contact us</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+                  <label class="input-field-icon icon-user" for="login-name"></label>
+                </div>
 
-                <input type="email" placeholder="Email" name="email" required />
+                <div class="form-group">
+                  <input type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
+                  <label class="input-field-icon icon-email" for="login-email"></label>
+                </div>
 
-                <textarea
-                  placeholder="Message"
-                  name="message"
-                  required
-                ></textarea>
-              </form>
-              <input type="submit" value="Send" id="submitButton" />
+                <div class="form-group">
+                  <textarea class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
+                </div>
+
+                <button id="contact-send" class="btn btn-primary btn-lg btn-block">Send</button>
+              </div>
+
+
             </div>
             <div class="paddingbottom">
             </div>
