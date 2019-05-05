@@ -254,6 +254,12 @@ svg {
   margin: auto;
 }
 
+#Title {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
 /*------------------------*/
 
 .modal {
