@@ -1,12 +1,40 @@
-
 window.addEventListener("load", function() {
-  lottie.loadAnimation({
-  container: document.getElementById('BB_title'), // the dom element that will contain the animation
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'BB_title.json' // the path to the animation json
-});
+
+  const title = anime.timeline({
+    easing: 'easeOutExpo',
+    loop: true,
+    });
+    title.add({
+      }).add({
+        targets: '#breaking',
+        opacity: 1,
+        duration: 800
+      })
+      title.add({
+        }).add({
+          targets: '#bias',
+          opacity: 1,
+          duration: 500
+        })
+    title.add({
+    }).add({
+      targets: '.glass',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      direction: 'alternate',
+      delay: 0,
+      easing: 'spring(1, 100, 10, 0)'
+    })
+    title.add({
+      }).add({
+        targets: '#breaking',
+        delay: 2500,
+        opacity: 0,
+      })
+      title.add({
+        }).add({
+          targets: '#bias',
+          opacity: 0,
+        })
 
 
   const illustration1 = anime.timeline({
@@ -45,58 +73,109 @@ window.addEventListener("load", function() {
         delay: 0,
       }, 1000)
 
-      const illustration3 = anime.timeline({
-        easing: 'easeOutExpo',
-        duration: 2500,
-        loop: true,
-        });
-        illustration3.add({
-          }).add({
-            targets: '#illustration3 .st6',
-            opacity: 1,
-          })
-        illustration3.add({
+    const illustration3 = anime.timeline({
+      easing: 'easeOutExpo',
+      duration: 2500,
+      loop: true,
+      });
+      illustration3.add({
         }).add({
-          targets: '#illustration3 .st5',
-          strokeDashoffset: [anime.setDashoffset, 0],
-          direction: 'alternate',
-          delay: 0,
-        }, 1000)
+          targets: '#illustration3 .st6',
+          opacity: 1,
+        })
+      illustration3.add({
+      }).add({
+        targets: '#illustration3 .st5',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'alternate',
+        delay: 0,
+      }, 1000)
 
-      const illustration4 = anime.timeline({
-        easing: 'easeOutExpo',
-        duration: 2500,
-        loop: true,
-        });
-        illustration4.add({
-          }).add({
-            targets: '#illustration4 .st8',
-            opacity: 1,
-          })
-        illustration4.add({
+    const illustration4 = anime.timeline({
+      easing: 'easeOutExpo',
+      duration: 2500,
+      loop: true,
+      });
+      illustration4.add({
         }).add({
-          targets: '#illustration4 .st7',
-          strokeDashoffset: [anime.setDashoffset, 0],
-          direction: 'alternate',
-          delay: 0,
-        }, 1000)
+          targets: '#illustration4 .st8',
+          opacity: 1,
+        })
+      illustration4.add({
+      }).add({
+        targets: '#illustration4 .st7',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'alternate',
+        delay: 0,
+      }, 1000)
 
-      const illustration5 = anime.timeline({
-        easing: 'easeOutExpo',
-        duration: 2500,
-        loop: true,
-        });
-        illustration5.add({
-          }).add({
-            targets: '#illustration5 .st11',
-            opacity: 1,
-          })
-        illustration5.add({
+    const illustration5 = anime.timeline({
+      easing: 'easeOutExpo',
+      duration: 2500,
+      loop: true,
+      });
+      illustration5.add({
         }).add({
-          targets: '#illustration5 .st10',
-          strokeDashoffset: [anime.setDashoffset, 0],
-          direction: 'alternate',
-          delay: 0,
-        }, 1000)
+          targets: '#illustration5 .st11',
+          opacity: 1,
+        })
+      illustration5.add({
+      }).add({
+        targets: '#illustration5 .st10',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'alternate',
+        delay: 0,
+      }, 1000)
 
+    const graph = anime.timeline({
+      easing: 'easeInOutExpo',
+      duration: 5000,
+      loop: true,
+      });
+      graph.add({
+      }).add({
+        targets: '#graph1 #animeLine',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'linear',
+        delay: 0,
+      }, 1000)
+
+    const graph2 = anime.timeline({
+      duration: 250,
+      loop: true,
+      });
+      graph.add({
+      }).add({
+        targets: '#graph2 .g2-line',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'linear',
+      }, 250)
+      graph.add({
+      }).add({
+        targets: '#graph2 .g2-line2',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'linear',
+      }, 250)
+      graph.add({
+      }).add({
+        targets: '#graph2 .g2-line3',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        direction: 'linear',
+      }, 250)
 });
+
+window.addEventListener("scroll", function(){
+  let offset = window.pageYOffset;
+  console.log('Offset:' + offset);
+  if (offset > 995 && offset < 1569){
+    console.log('Video1');
+  }
+  if (offset > 3160 && offset < 3829){
+    console.log('illustration1');
+  }
+  if (offset > 750){
+
+  }
+  if (offset > 736 && offset < 893){
+  }
+})

@@ -37,7 +37,8 @@ body {
   align-items: center;
 }
 
-.containerChapters a {
+
+.containerChapters .chapter {
   text-decoration: none;
   color: #323234;
   font-weight: 450;
@@ -51,10 +52,17 @@ body {
   left: 0;
 }
 
-.containerChapters a:hover{
-  color:grey;
+img {
+  width: 590px;
+  margin: auto;
+  display: block;
 }
 
+p.chapter{
+  margin: 0;
+  text-decoration: none;
+  font-size: 14px;
+}
 .navSlider{
   height: 100%;
   top:0;
@@ -85,30 +93,30 @@ body {
 
 /*
 .containerChapters {
-  position: fixed;
+position: fixed;
 
-  left: 0;
+left: 0;
 
-  top: 0;
-  background: #D4C595;
-  height: 100%;
-  padding: 20px;
-  z-index: 2;
-  overflow-x:
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+top: 0;
+background: #D4C595;
+height: 100%;
+padding: 20px;
+z-index: 2;
+overflow-x:
+display: flex;
+justify-content: space-around;
+flex-direction: column;
 }
 */
 /*
 .containerChapters a{
-  display: block;
-  text-decoration: none;
-  color: #5C5120;
-  font-weight: 700;
-  font-family: 'Libre Baskerville',serif;
-  font-size: 1em;
-  line-height: 1.5;
+display: block;
+text-decoration: none;
+color: #5C5120;
+font-weight: 700;
+font-family: 'Libre Baskerville',serif;
+font-size: 1em;
+line-height: 1.5;
 }
 */
 .header,
@@ -204,6 +212,11 @@ p{
   width: 590px;
   margin: auto;
   padding: 1em 0px;
+  font-size: 17px;
+  line-height: 1.8em;
+}
+#back{
+  text-align: center;
 }
 
 .padding{
@@ -244,7 +257,7 @@ object{
 }
 
 .chapter{
-  display: none;
+  visibility: hidden;
 }
 
 .ic-wrapp:hover .circle{
@@ -253,7 +266,8 @@ object{
 }
 
 .ic-wrapp:hover .chapter{
-  display: block;
+  visibility:visible;
+  text-decoration: none;
 }
 
 svg {
@@ -262,10 +276,16 @@ svg {
   margin: auto;
 }
 
+#Title {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
 /*------------------------*/
 
 .modal {
-  display: block;
+  display: absolute;
   position: fixed;
   z-index: 3;
   padding-left: 80%;
@@ -296,21 +316,37 @@ svg {
   font-weight: bold;
   font-size: 12px;
 }
-
+/*
 .mailForm{
-  width: 590px;
-  margin: auto;
+width: 590px;
+margin: auto;
 }
 
-.input{
-padding: 100px;
+#formCont{
+padding: 20px;
+border-radius: 25px;
+background-color:#F3E9BC;
 }
 
+input[type="text"], textarea{
+background-color: #fbf8e9;
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 15px;
+
+}
+
+input[type="email"], textarea{
+background-color: #fbf8e9;
+font-family: 'Open Sans', sans-serif;
+} */
+
+
+/*
 textarea{
-  margin: auto;
-  height: 200px;
-  width: 100%
-}
+margin: auto;
+height: 200px;
+width: 100%
+} */
 
 .system{
   font-family: 'Libre Baskerville',serif;
@@ -340,4 +376,91 @@ textarea{
 
 video::-webkit-media-controls-panel{
   background-image:none!important;
+}
+
+.form {
+  width: 620px;
+  margin:auto;
+  background: #FBFBFB;
+  border-radius: 3px;
+  margin-top: 5em;
+  margin-bottom: 6em;
+  padding: 1.25em;
+}
+
+#formintro{
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.btn-primary {
+  box-shadow: 0;
+  border: none;
+  background-color: #FFCC66;
+  border-color: #48c9b0;
+  color: #ffffff;
+  outline: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transition: all .5s;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  width: 20%;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 1.44em;
+  margin-bottom: .55em;
+  display: inherit;
+}
+
+.btn-primary:hover {
+  background-color: #ffb31a;
+}
+
+.form-group {
+  position: relative;
+  opacity: 1;
+  transition: .6s;
+}
+
+.form-control {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  border-bottom: 2px solid #bdc3c7;
+  border-radius: 0;
+  background: #FBFBFB;
+  font-size: 15px;
+  line-height: 1.467;
+  padding: 4px;
+  height: 42px;
+  -webkit-appearance: none;
+}
+
+input, textarea {
+  transition: all 800ms;
+  font-family: "Open Sans", sans-serif;
+  outline:none;
+  box-sizing:border-box;
+  width: 100%;
+  padding: 0px 4px;
+  color: #34495e;
+  margin-top: 1.25em;
+}
+
+input:focus, textarea:focus {
+  border-color: #FFCC66;
+  color: #34495e;
+}
+
+
+textarea.form-control {
+  height: 120px;
+  transition: .6s;
+}
+
+textarea.form-control:focus {
+  height: 200px;
+  border-color: #FFCC66;
 }

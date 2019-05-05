@@ -1,49 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 590 418" style="enable-background:new 0 0 590 418;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.4;fill:#E5CE5C;enable-background:new    ;}
-	.st1{fill:#210A0A;stroke:#515151;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:url(#SVGID_1_);stroke-width:3;stroke-miterlimit:10;}
-	.st3{font-family:'OpenSans';}
-	.st4{font-size:11.6212px;}
-</style>
-<g id="Group_7" transform="translate(-70.9 -89.2)">
+<svg version="1.1" id="graph1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 590 418" enable-background="new 0 0 590 418" xml:space="preserve">
+<g id="Background" transform="translate(-70.9 -89.2)">
 	<g id="Group_5">
-		<path id="Path_4" class="st0" d="M171.1,380.4h408v60.9h-408V380.4z"/>
-		<path id="Path_5" class="st0" d="M171.1,258.6h408v60.9h-408V258.6z"/>
-		<path id="Path_6" class="st0" d="M171.1,136.8h408v60.9h-408V136.8z"/>
+		<path id="Path_4" opacity="0.4" fill="#E5CE5C" enable-background="new    " d="M171.1,380.4h408v60.9h-408L171.1,380.4
+			L171.1,380.4z"/>
+		<path id="Path_5" opacity="0.4" fill="#E5CE5C" enable-background="new    " d="M171.1,258.6h408v60.9h-408L171.1,258.6
+			L171.1,258.6z"/>
+		<path id="Path_6" opacity="0.4" fill="#E5CE5C" enable-background="new    " d="M171.1,136.8h408v60.9h-408L171.1,136.8
+			L171.1,136.8z"/>
 	</g>
 	<g id="Group_6">
-		<path id="Path_7" class="st1" d="M171.1,462V136.8"/>
-		<path id="Path_8" class="st1" d="M579.1,441.3H150.4"/>
-		<path id="Path_9" class="st1" d="M232,441.3v10.5"/>
-		<path id="Path_10" class="st1" d="M292.8,441.3v10.5"/>
-		<path id="Path_11" class="st1" d="M353.7,441.3v10.5"/>
-		<path id="Path_12" class="st1" d="M414.7,441.3v10.5"/>
-		<path id="Path_13" class="st1" d="M475.6,441.3v10.5"/>
-		<path id="Path_14" class="st1" d="M536.5,441.3v10.5"/>
-		<path id="Path_15" class="st1" d="M160.5,380.4h10.6"/>
-		<path id="Path_16" class="st1" d="M160.5,319.4h10.6"/>
-		<path id="Path_17" class="st1" d="M160.5,258.6h10.6"/>
-		<path id="Path_18" class="st1" d="M160.5,197.7h10.6"/>
+		<path id="Path_7" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M171.1,462V136.8"/>
+		<path id="Path_8" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M579.1,441.3H150.4"/>
+		<path id="Path_9" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M232,441.3v10.5"/>
+		<path id="Path_10" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M292.8,441.3v10.5"/>
+		<path id="Path_11" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M353.7,441.3v10.5"/>
+		<path id="Path_12" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M414.7,441.3v10.5"/>
+		<path id="Path_13" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M475.6,441.3v10.5"/>
+		<path id="Path_14" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M536.5,441.3v10.5"/>
+		<path id="Path_15" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M160.5,380.4h10.6"/>
+		<path id="Path_16" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M160.5,319.4h10.6"/>
+		<path id="Path_17" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M160.5,258.6h10.6"/>
+		<path id="Path_18" fill="#210A0A" stroke="#515151" stroke-miterlimit="10" d="M160.5,197.7h10.6"/>
+		<text transform="matrix(1 0 0 1 211.565 464.9061)" font-family="'OpenSans'" font-size="11.6212px">January</text>
+		<text transform="matrix(1 0 0 1 143.0089 380.3611)" font-family="'OpenSans'" font-size="11.6212px">10</text>
+		<text transform="matrix(1 0 0 1 143.0089 319.5438)" font-family="'OpenSans'" font-size="11.6212px">20</text>
+		<text transform="matrix(1 0 0 1 143.0089 258.5809)" font-family="'OpenSans'" font-size="11.6212px">30</text>
+		<text transform="matrix(1 0 0 1 143.0089 197.7142)" font-family="'OpenSans'" font-size="11.6212px">40</text>
+		<text transform="matrix(1 0 0 1 268.5411 464.9061)" font-family="'OpenSans'" font-size="11.6212px">February</text>
+		<text transform="matrix(1 0 0 1 336.5631 464.9061)" font-family="'OpenSans'" font-size="11.6212px">March</text>
+		<text transform="matrix(1 0 0 1 402.1109 464.9061)" font-family="'OpenSans'" font-size="11.6212px">April</text>
+		<text transform="matrix(1 0 0 1 464.1685 464.9061)" font-family="'OpenSans'" font-size="11.6212px">May</text>
+		<text transform="matrix(1 0 0 1 524.5446 464.9061)" font-family="'OpenSans'" font-size="11.6212px">June</text>
 	</g>
 </g>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="467.343" y1="111.4036" x2="159.3579" y2="113.1861" gradientTransform="matrix(1 0 0 1 0 118)">
+<linearGradient id="animeLine_1_" gradientUnits="userSpaceOnUse" x1="467.3543" y1="308.5918" x2="159.3448" y2="306.8091" gradientTransform="matrix(1 0 0 -1 0 538)">
 	<stop  offset="0" style="stop-color:#511818"/>
 	<stop  offset="0.503" style="stop-color:#73000A"/>
 	<stop  offset="1" style="stop-color:#CC5252"/>
 </linearGradient>
-<polyline class="st2" points="161.1,352.1 221.9,291.2 282.8,259.6 343.8,230.2 404.7,169.4 465.6,108.5 "/>
-<text transform="matrix(1 0 0 1 140.665 375.7061)" class="st3 st4">January</text>
-<text transform="matrix(1 0 0 1 72.1089 291.1611)" class="st3 st4">10</text>
-<text transform="matrix(1 0 0 1 72.1089 230.3438)" class="st3 st4">20</text>
-<text transform="matrix(1 0 0 1 72.1089 169.3809)" class="st3 st4">30</text>
-<text transform="matrix(1 0 0 1 72.1089 108.5142)" class="st3 st4">40</text>
-<text transform="matrix(1 0 0 1 197.6411 375.7061)" class="st3 st4">February</text>
-<text transform="matrix(1 0 0 1 265.6631 375.7061)" class="st3 st4">March</text>
-<text transform="matrix(1 0 0 1 331.2109 375.7061)" class="st3 st4">April</text>
-<text transform="matrix(1 0 0 1 393.2686 375.7061)" class="st3 st4">May</text>
-<text transform="matrix(1 0 0 1 453.6445 375.7061)" class="st3 st4">June</text>
+<polyline id="animeLine" fill="none" stroke="url(#animeLine_1_)" stroke-width="3" stroke-miterlimit="10" points="161.1,352.1
+	221.9,291.2 282.8,259.6 343.8,230.2 404.7,169.4 465.6,108.5 "/>
 </svg>
