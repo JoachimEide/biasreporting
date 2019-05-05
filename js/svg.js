@@ -1,12 +1,40 @@
-
 window.addEventListener("load", function() {
-  lottie.loadAnimation({
-  container: document.getElementById('BB_title'), // the dom element that will contain the animation
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'BB_title.json' // the path to the animation json
-});
+
+  const title = anime.timeline({
+    easing: 'easeOutExpo',
+    loop: true,
+    });
+    title.add({
+      }).add({
+        targets: '#breaking',
+        opacity: 1,
+        duration: 800
+      })
+      title.add({
+        }).add({
+          targets: '#bias',
+          opacity: 1,
+          duration: 500
+        })
+    title.add({
+    }).add({
+      targets: '.glass',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      direction: 'alternate',
+      delay: 0,
+      easing: 'spring(1, 100, 10, 0)'
+    })
+    title.add({
+      }).add({
+        targets: '#breaking',
+        delay: 2500,
+        opacity: 0,
+      })
+      title.add({
+        }).add({
+          targets: '#bias',
+          opacity: 0,
+        })
 
 
   const illustration1 = anime.timeline({
