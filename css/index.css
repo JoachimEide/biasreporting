@@ -229,7 +229,7 @@ object{
 }
 
 .obj{
-  fill:#323234;
+  fill:#32323;
 }
 
 
@@ -243,9 +243,17 @@ object{
   stroke: none;
 }
 
+.chapter{
+  visibility: hidden;
+}
+
 .ic-wrapp:hover .circle{
   stroke: #FFCC66;
-  stroke-width: 1.5px;
+  stroke-width: 2.5px;
+}
+
+.ic-wrapp:hover .chapter{
+  visibility:visible;
 }
 
 svg {
@@ -320,4 +328,22 @@ textarea{
 ::cue{
   background-color:rgba(00,00,00,0.5);
   font-family: "Open Sans", sans-serif;
+}
+
+.soundBtn{
+  top:98%;
+  position: absolute;
+}
+
+
+.wrapvid{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.player_wrapper{
+}
+
+video::-webkit-media-controls-panel{
+  background-image:none!important;
 }

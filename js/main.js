@@ -1,13 +1,22 @@
+/*
+function showModal(){
+  var modal = document.getElementById('myModal');
+  var sliderdm = document.getElementById('sliderdm')
+  document.getElementById('slider').addEventListener('click',function(evt) {
+    var target = evt.target;
+    if(target.id === 'sliderdm'){
+      document.getElementById('stylesheet').setAttribute("href","css/dark.css")
+      sliderdm.setAttribute("src",'pictures/dm-button-change.svg')
+      var modalp =  document.getElementById('modalp');
+      modalp.innerHTML = "Hope you like it! You can always change back <br> <br>"
 
-function openNav(){
-  var arrow = document.getElementById('arrow')
-  var arrowSvg = document.getElementById('arrowSvg')
-  arrowSvg.onclick = function(){
-    document.getElementById("sideNav").style.width = "250px";
-    arrowSvg.style.marginLeft = "190px"
-    arrowSvg.setAttribute("src","pictures/left-arrow.png")
-    closeNav()
-  }
+      sliderdm.id = "sliderchange"
+    }else if (target.id ==="sliderchange") {
+      document.getElementById('stylesheet').setAttribute("href","css/index.css")
+      sliderdm.setAttribute("src",'pictures/dm-button.svg')
+      modal.style.display = "none";
+    }
+  })
 }
 
 function closeNav(){

@@ -41,7 +41,7 @@
      	<circle class="circle" cx="15.9" cy="16.2" r="15"/>
      </g>
      </svg>
-     <a href="#studentexperience"> Student<br/>experiences</a>
+     <a class="chapter" href="#studentexperience"> Student<br/>experiences</a>
    </div>
    <div class="ic-wrapp">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -54,7 +54,7 @@
      		 M7.6,17l2.7-5.9L13,17H7.6z M21.5,8.4l2.7,5.9h-5.3L21.5,8.4z"/>
      </g>
      </svg>
-     <a href="#biasSystemElon"> The Bias<br/>System at Elon</a>
+     <a class="chapter" href="#biasSystemElon"> The Bias<br/>System at Elon</a>
    </div>
    <div class="ic-wrapp">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -77,7 +77,7 @@
      	c0.9,0.9,1.8,1.8,2.7,2.7c0.8,0.8,1.6,1.6,2.4,2.4C21.5,20.3,21.8,20.6,21.4,21z M26.6,16.4c-2-2-4-4-6-6c0.5-0.5,1.2-1.1,1.8-1.7
      	c2,2,4,4,6,6C27.8,15.2,27.2,15.8,26.6,16.4z"/>
      </svg>
-     <a href="#advocates"> Advovates<br/>and resources</a>
+     <a class="chapter" href="#advocates"> Advovates<br/>and resources</a>
    </div>
    <div class="ic-wrapp">
      <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -105,7 +105,7 @@
      	c-0.2,0-0.3-0.1-0.3-0.2v-0.1c0-0.1,0.2-0.2,0.3-0.2h6.3c0.2,0,0.3,0.1,0.3,0.2V16H20.7z M20.7,14.2c0,0.1-0.1,0.2-0.3,0.2h-5.2
      	c-0.2,0-0.3-0.1-0.3-0.2v-0.1c0-0.1,0.1-0.2,0.3-0.2h5.2c0.2,0,0.3,0.1,0.3,0.2V14.2z"/>
      </svg>
-     <a href="#improvement"> Room for<br/>improvement</a>
+     <a class="chapter" href="#improvement"> Room for<br/>improvement</a>
    </div>
 
 
@@ -1064,12 +1064,18 @@
             <div class="padding">
             </div>
 
-            <video autoplay controls muted>
-              <source src="/Videos/Elder_vid_1v2.mp4" type="video/mp4" />
-              <source src="movie.ogg" type="video/ogg" />
-              <track kind="subtitles" src="Videos/Elder1.vtt" srclang="en" default>
-              Your browser does not support the video tag.
-            </video>
+                <video autoplay muted controls class="video_player">
+                  <source src="/Videos/Elder_vid_1v2.mp4" type="video/mp4" />
+                  <source src="movie.ogg" type="video/ogg" />
+                  <track kind="subtitles" src="Videos/Eldervid1.vtt" srclang="en" default>
+                  <div id="soundBtn">
+                    <button type="button" name="button">TEST</button>
+                    <input type="image" src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                  </div>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
 
             <div class="padding">
             </div>
@@ -3443,12 +3449,16 @@
             <div class="padding">
             </div>
 
-            <video autoplay controls muted>
-              <source src="/Videos/Nic_vid_1v2.mp4" type="video/mp4" />
-              <track  src="Videos/Nic1.vtt" kind="subtitles" srclang="en-us" default>
-              Your browser does not support the video tag.
-            </video>
-
+            <div class="video">
+              <video autoplay controls muted>
+                <source src="/Videos/Nic_vid_1v2.mp4" type="video/mp4" />
+                <div class="soundBtn">
+                  <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                </div>
+                <track  src="Videos/Nicvid1.vtt" kind="subtitles" srclang="en-us" default>
+                Your browser does not support the video tag.
+              </video>
+            </div>
             <div class="padding">
             </div>
 
@@ -15676,8 +15686,14 @@
               <div class="padding">
               </div>
 
+              <div class="video">
+
+              </div>
               <video autoplay controls muted>
                 <source src="/Videos/Nic_vid_2v2.mp4" type="video/mp4" />
+                <div class="soundBtn">
+                  <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                </div>
                 <source src="movie.ogg" type="video/ogg" />
                 <track kind="subtitles" src="Videos/Nic2.vtt" srclang="en" default>
                 Your browser does not support the video tag.
@@ -15743,11 +15759,16 @@
               <div class="padding">
               </div>
 
-              <video autoplay controls muted>
-                <source src="/Videos/Elder_vid_2v2.mp4" type="video/mp4" />
-                <source src="movie.ogg" type="video/ogg" />
-                Your browser does not support the video tag.
-              </video>
+              <div class="video">
+                <video autoplay controls muted>
+                  <source src="/Videos/Elder_vid_2v2.mp4" type="video/mp4" />
+                  <source src="movie.ogg" type="video/ogg" />
+                  <div class="soundBtn">
+                    <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                  </div>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
 
               <div class="padding">
               </div>
