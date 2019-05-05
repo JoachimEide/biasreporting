@@ -207,7 +207,7 @@ p{
   color: #282828;
   width: 590px;
   margin: auto;
-  padding: 1em;
+  padding: 0px;
   font-size: 17px;
   line-height: 1.8em;
 }
@@ -264,6 +264,12 @@ object{
 }
 
 svg {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+#Title {
   display: block;
   width: 70%;
   margin: auto;

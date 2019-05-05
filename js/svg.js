@@ -127,4 +127,43 @@ window.addEventListener("load", function() {
           delay: 0,
         }, 1000)
 
+      const graph = anime.timeline({
+        easing: 'easeInOutExpo',
+        duration: 5000,
+        loop: true,
+        });
+        graph.add({
+        }).add({
+          targets: '#graph1 #animeLine',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'linear',
+          delay: 0,
+        }, 1000)
+
+      const graph2 = anime.timeline({
+        easing: 'linear',
+        duration: 5,
+        loop: true,
+        });
+        graph.add({
+        }).add({
+          targets: '#graph2 .g2-line',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'linear',
+        }, 1000)
+        graph.add({
+        }).add({
+          targets: '#graph2 .g2-line2',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'linear',
+        }, 1000)
+        graph.add({
+        }).add({
+          targets: '#graph2 .g2-line3',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          direction: 'linear',
+        }, 1000)
+
+
+
 });
