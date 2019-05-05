@@ -289,3 +289,21 @@ textarea{
   background-color:rgba(00,00,00,0.5);
   font-family: "Open Sans", sans-serif;
 }
+
+.soundBtn{
+  top:98%;
+  position: absolute;
+}
+
+
+.wrapvid{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.player_wrapper{
+}
+
+video::-webkit-media-controls-panel{
+  background-image:none!important;
+}

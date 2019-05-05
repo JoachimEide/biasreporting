@@ -84,13 +84,18 @@
             <div class="padding">
             </div>
 
-            <video autoplay muted class="video">
-              <source src="/Videos/Elder_vid_1v2.mp4" type="video/mp4" />
-              <button src="pictures/adv-ic.svg" alt="" id="vidbutton"> > </button>
-              <source src="movie.ogg" type="video/ogg" />
-              <track kind="subtitles" src="Videos/Eldervid1.vtt" srclang="en" default>
-              Your browser does not support the video tag.
-            </video>
+                <video autoplay muted controls class="video_player">
+                  <source src="/Videos/Elder_vid_1v2.mp4" type="video/mp4" />
+                  <source src="movie.ogg" type="video/ogg" />
+                  <track kind="subtitles" src="Videos/Eldervid1.vtt" srclang="en" default>
+                  <div id="soundBtn">
+                    <button type="button" name="button">TEST</button>
+                    <input type="image" src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                  </div>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
 
             <div class="padding">
             </div>
@@ -2464,12 +2469,16 @@
             <div class="padding">
             </div>
 
-            <video autoplay muted class="video">
-              <source src="/Videos/Nic_vid_1v2.mp4" type="video/mp4" />
-              <track  src="Videos/Nicvid1.vtt" kind="subtitles" srclang="en-us" default>
-              Your browser does not support the video tag.
-            </video>
-
+            <div class="video">
+              <video autoplay muted>
+                <source src="/Videos/Nic_vid_1v2.mp4" type="video/mp4" />
+                <div class="soundBtn">
+                  <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                </div>
+                <track  src="Videos/Nicvid1.vtt" kind="subtitles" srclang="en-us" default>
+                Your browser does not support the video tag.
+              </video>
+            </div>
             <div class="padding">
             </div>
 
@@ -5194,8 +5203,14 @@
               <div class="padding">
               </div>
 
-              <video autoplay muted class="video">
+              <div class="video">
+
+              </div>
+              <video autoplay muted>
                 <source src="/Videos/Nic_vid_2v2.mp4" type="video/mp4" />
+                <div class="soundBtn">
+                  <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                </div>
                 <source src="movie.ogg" type="video/ogg" />
                 <track kind="subtitles" src="Videos/Nic2.vtt" srclang="en" default>
                 Your browser does not support the video tag.
@@ -5261,11 +5276,16 @@
               <div class="padding">
               </div>
 
-              <video autoplay muted class="video">
-                <source src="/Videos/Elder_vid_2v2.mp4" type="video/mp4" />
-                <source src="movie.ogg" type="video/ogg" />
-                Your browser does not support the video tag.
-              </video>
+              <div class="video">
+                <video autoplay muted>
+                  <source src="/Videos/Elder_vid_2v2.mp4" type="video/mp4" />
+                  <source src="movie.ogg" type="video/ogg" />
+                  <div class="soundBtn">
+                    <img src="pictures/adv-ic.svg" alt="" id="vidbutton">
+                  </div>
+                  Your browser does not support the video tag.
+                </video>
+              </div>
 
               <div class="padding">
               </div>

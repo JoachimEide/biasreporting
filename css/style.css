@@ -31,3 +31,7 @@ margin-right:.25em;
 vertical-align:-.4em;
 
 }
+
+#soundBtn{
+  z-index: 6;
+}
