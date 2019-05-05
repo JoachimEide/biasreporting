@@ -3,102 +3,102 @@
 <svg version="1.1" id="graph2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 590 477.7" style="enable-background:new 0 0 590 477.7;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.4;fill:#E5CE5C;enable-background:new    ;}
-	.st1{fill:#210A0A;stroke:#515151;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#515151;stroke-miterlimit:10;}
-	.st3{font-family:'OpenSans';}
-	.st4{font-size:10.8544px;}
-	.st5{font-size:11.6212px;}
-	.st6{fill:#CC5252;}
-	.st7{fill:#73000A;}
-	.st8{fill:#511818;}
-	.st9{fill:none;stroke:#511818;stroke-width:8.4;stroke-miterlimit:10;}
-	.st10{fill:none;stroke:#73000A;stroke-width:8.4;stroke-miterlimit:10;}
-	.st11{fill:none;stroke:#CC5252;stroke-width:8.4;stroke-miterlimit:10;}
+	.bckg-g2{opacity:0.4;fill:#E5CE5C;enable-background:new    ;}
+	.line-g2{fill:#210A0A;stroke:#515151;stroke-miterlimit:10;}
+	.line2-g2{fill:none;stroke:#515151;stroke-miterlimit:10;}
+	.text-g2{font-family:'OpenSans';}
+	.g2-fontSize{font-size:10.8544px;}
+	.numbers-g2{font-size:11.6212px;}
+	.g2-rect{fill:#CC5252;}
+	.g2-rect2{fill:#73000A;}
+	.g2-rect3{fill:#511818;}
+	.g2-line{fill:none;stroke:#511818;stroke-width:8.4;stroke-miterlimit:10;}
+	.g2-line2{fill:none;stroke:#73000A;stroke-width:8.4;stroke-miterlimit:10;}
+	.g2-line3{fill:none;stroke:#CC5252;stroke-width:8.4;stroke-miterlimit:10;}
 </style>
 <g id="Squares">
-	<path id="sq5" class="st0" d="M108.6,106.1h408v30.4h-408L108.6,106.1L108.6,106.1z"/>
-	<path id="sq4" class="st0" d="M109.2,167.1h408v30.4h-408L109.2,167.1L109.2,167.1z"/>
-	<path id="sq3" class="st0" d="M108.6,228.2h408v30.4h-408L108.6,228.2L108.6,228.2z"/>
-	<path id="sq2" class="st0" d="M108.6,289.5h408V320h-408L108.6,289.5L108.6,289.5z"/>
-	<path id="sq1" class="st0" d="M108.6,350.5h408v30.4h-408L108.6,350.5L108.6,350.5z"/>
+	<path id="sq5" class="bckg-g2" d="M108.6,106.1h408v30.4h-408L108.6,106.1L108.6,106.1z"/>
+	<path id="sq4" class="bckg-g2" d="M109.2,167.1h408v30.4h-408L109.2,167.1L109.2,167.1z"/>
+	<path id="sq3" class="bckg-g2" d="M108.6,228.2h408v30.4h-408L108.6,228.2L108.6,228.2z"/>
+	<path id="sq2" class="bckg-g2" d="M108.6,289.5h408V320h-408L108.6,289.5L108.6,289.5z"/>
+	<path id="sq1" class="bckg-g2" d="M108.6,350.5h408v30.4h-408L108.6,350.5L108.6,350.5z"/>
 </g>
 <g id="Lines">
-	<path id="Main_line" class="st1" d="M108.6,432.5V85.3"/>
-	<path id="Main_Line2" class="st1" d="M516.6,411.8H87.9"/>
-	<path id="_x31_" class="st1" d="M145.4,411.8v9.8"/>
-	<path id="_x32_" class="st1" d="M202.1,411.8v9.8"/>
-	<path id="_x33_" class="st1" d="M258.9,411.8v9.8"/>
-	<path id="_x34_" class="st1" d="M315.8,411.8v9.8"/>
-	<path id="_x35_" class="st1" d="M372.8,411.8v9.8"/>
-	<path id="_x36_" class="st1" d="M429.7,411.8v9.8"/>
-	<path id="_x37_" class="st1" d="M486.6,411.8v9.8"/>
-	<path id="v1" class="st1" d="M98,380.9h10.6"/>
-	<path id="v2" class="st1" d="M98,350.5h10.6"/>
-	<path id="v3" class="st1" d="M98,319.6h10.6"/>
-	<path id="v4" class="st1" d="M98,289.5h10.6"/>
-	<path id="v5_1_" class="st1" d="M98,258.6h10.6"/>
-	<path id="v6_1_" class="st2" d="M98,228.2h10.6"/>
-	<path id="v7_1_" class="st1" d="M98,197.6h10.6"/>
-	<path id="v8" class="st1" d="M98,167.1h10.6"/>
-	<path id="v9" class="st1" d="M98,134.8h10.6"/>
-	<path id="v10" class="st1" d="M98,106.1h10.6"/>
+	<path id="Main_line" class="line-g2" d="M108.6,432.5V85.3"/>
+	<path id="Main_Line2" class="line-g2" d="M516.6,411.8H87.9"/>
+	<path id="_x31_" class="line-g2" d="M145.4,411.8v9.8"/>
+	<path id="_x32_" class="line-g2" d="M202.1,411.8v9.8"/>
+	<path id="_x33_" class="line-g2" d="M258.9,411.8v9.8"/>
+	<path id="_x34_" class="line-g2" d="M315.8,411.8v9.8"/>
+	<path id="_x35_" class="line-g2" d="M372.8,411.8v9.8"/>
+	<path id="_x36_" class="line-g2" d="M429.7,411.8v9.8"/>
+	<path id="_x37_" class="line-g2" d="M486.6,411.8v9.8"/>
+	<path id="v1" class="line-g2" d="M98,380.9h10.6"/>
+	<path id="v2" class="line-g2" d="M98,350.5h10.6"/>
+	<path id="v3" class="line-g2" d="M98,319.6h10.6"/>
+	<path id="v4" class="line-g2" d="M98,289.5h10.6"/>
+	<path id="v5_1_" class="line-g2" d="M98,258.6h10.6"/>
+	<path id="v6_1_" class="line2-g2" d="M98,228.2h10.6"/>
+	<path id="v7_1_" class="line-g2" d="M98,197.6h10.6"/>
+	<path id="v8" class="line-g2" d="M98,167.1h10.6"/>
+	<path id="v9" class="line-g2" d="M98,134.8h10.6"/>
+	<path id="v10" class="line-g2" d="M98,106.1h10.6"/>
 </g>
 <g id="Names">
-	<text transform="matrix(1 0 0 1 240.0225 433.8675)" class="st3 st4">Gender</text>
-	<text transform="matrix(1 0 0 1 292.7861 433.8675)" class="st3 st4">Disability</text>
-	<text transform="matrix(1 0 0 1 356.2031 433.8675)" class="st3 st4">Sexual</text>
-	<text transform="matrix(1 0 0 1 343.8031 446.8675)" class="st3 st4">Orientation</text>
-	<text transform="matrix(1 0 0 1 409.5732 433.8675)" class="st3 st4">Religion</text>
-	<text transform="matrix(1 0 0 1 472.5615 433.8675)" class="st3 st4">Race/</text>
-	<text transform="matrix(1 0 0 1 462.9614 446.8675)" class="st3 st4">Ethnicity/</text>
-	<text transform="matrix(1 0 0 1 464.6615 459.9675)" class="st3 st4">Ancestry</text>
-	<text transform="matrix(1 0 0 1 183.061 433.8675)" class="st3 st4">Gender</text>
-	<text transform="matrix(1 0 0 1 183.061 446.8675)" class="st3 st4">Identity</text>
-	<text transform="matrix(1 0 0 1 126.2728 433.8675)" class="st3 st4">Multiple-</text>
-	<text transform="matrix(1 0 0 1 126.2728 446.8675)" class="st3 st4">Bias </text>
-	<text transform="matrix(1 0 0 1 126.2728 459.9675)" class="st3 st4">Incidents</text>
-	<text transform="matrix(1 0 0 1 73.5707 384.8948)" class="st3 st5">500</text>
-	<text transform="matrix(1 0 0 1 66.9257 324.0776)" class="st3 st5">1500</text>
-	<text transform="matrix(1 0 0 1 66.9257 263.1148)" class="st3 st5">2500</text>
-	<text transform="matrix(1 0 0 1 66.9257 202.2482)" class="st3 st5">3500</text>
-	<text transform="matrix(1 0 0 1 66.9257 231.5998)" class="st3 st5">3000</text>
-	<text transform="matrix(1 0 0 1 66.9257 292.6568)" class="st3 st5">2000</text>
-	<text transform="matrix(1 0 0 1 66.9257 354.01)" class="st3 st5">1000</text>
-	<text transform="matrix(1 0 0 1 66.9257 170.6019)" class="st3 st5">4000</text>
-	<text transform="matrix(1 0 0 1 66.9257 138.3169)" class="st3 st5">4500</text>
-	<text transform="matrix(1 0 0 1 66.9257 109.6037)" class="st3 st5">5000</text>
+	<text transform="matrix(1 0 0 1 240.0225 433.8675)" class="text-g2 g2-fontSize">Gender</text>
+	<text transform="matrix(1 0 0 1 292.7861 433.8675)" class="text-g2 g2-fontSize">Disability</text>
+	<text transform="matrix(1 0 0 1 356.2031 433.8675)" class="text-g2 g2-fontSize">Sexual</text>
+	<text transform="matrix(1 0 0 1 343.8031 446.8675)" class="text-g2 g2-fontSize">Orientation</text>
+	<text transform="matrix(1 0 0 1 409.5732 433.8675)" class="text-g2 g2-fontSize">Religion</text>
+	<text transform="matrix(1 0 0 1 472.5615 433.8675)" class="text-g2 g2-fontSize">Race/</text>
+	<text transform="matrix(1 0 0 1 462.9614 446.8675)" class="text-g2 g2-fontSize">Ethnicity/</text>
+	<text transform="matrix(1 0 0 1 464.6615 459.9675)" class="text-g2 g2-fontSize">Ancestry</text>
+	<text transform="matrix(1 0 0 1 183.061 433.8675)" class="text-g2 g2-fontSize">Gender</text>
+	<text transform="matrix(1 0 0 1 183.061 446.8675)" class="text-g2 g2-fontSize">Identity</text>
+	<text transform="matrix(1 0 0 1 126.2728 433.8675)" class="text-g2 g2-fontSize">Multiple-</text>
+	<text transform="matrix(1 0 0 1 126.2728 446.8675)" class="text-g2 g2-fontSize">Bias </text>
+	<text transform="matrix(1 0 0 1 126.2728 459.9675)" class="text-g2 g2-fontSize">Incidents</text>
+	<text transform="matrix(1 0 0 1 73.5707 384.8948)" class="text-g2 numbers-g2">500</text>
+	<text transform="matrix(1 0 0 1 66.9257 324.0776)" class="text-g2 numbers-g2">1500</text>
+	<text transform="matrix(1 0 0 1 66.9257 263.1148)" class="text-g2 numbers-g2">2500</text>
+	<text transform="matrix(1 0 0 1 66.9257 202.2482)" class="text-g2 numbers-g2">3500</text>
+	<text transform="matrix(1 0 0 1 66.9257 231.5998)" class="text-g2 numbers-g2">3000</text>
+	<text transform="matrix(1 0 0 1 66.9257 292.6568)" class="text-g2 numbers-g2">2000</text>
+	<text transform="matrix(1 0 0 1 66.9257 354.01)" class="text-g2 numbers-g2">1000</text>
+	<text transform="matrix(1 0 0 1 66.9257 170.6019)" class="text-g2 numbers-g2">4000</text>
+	<text transform="matrix(1 0 0 1 66.9257 138.3169)" class="text-g2 numbers-g2">4500</text>
+	<text transform="matrix(1 0 0 1 66.9257 109.6037)" class="text-g2 numbers-g2">5000</text>
 </g>
 <g id="expl">
-	<rect x="258.9" y="60.4" class="st0" width="257.7" height="24.9"/>
-	<rect x="326.1" y="66.3" class="st6" width="12.9" height="12.9"/>
-	<rect x="406.1" y="66.3" class="st7" width="12.9" height="12.9"/>
-	<rect x="486.1" y="65.9" class="st8" width="12.9" height="12.9"/>
-	<text transform="matrix(1 0 0 1 273.808 76.128)" class="st3 st4">Incidents</text>
-	<text transform="matrix(1 0 0 1 353.808 76.128)" class="st3 st4">Offenses</text>
-	<text transform="matrix(1 0 0 1 433.808 75.7477)" class="st3 st4">Victims</text>
+	<rect x="258.9" y="60.4" class="bckg-g2" width="257.7" height="24.9"/>
+	<rect x="326.1" y="66.3" class="g2-rect" width="12.9" height="12.9"/>
+	<rect x="406.1" y="66.3" class="g2-rect2" width="12.9" height="12.9"/>
+	<rect x="486.1" y="65.9" class="g2-rect3" width="12.9" height="12.9"/>
+	<text transform="matrix(1 0 0 1 273.808 76.128)" class="text-g2 g2-fontSize">Incidents</text>
+	<text transform="matrix(1 0 0 1 353.808 76.128)" class="text-g2 g2-fontSize">Offenses</text>
+	<text transform="matrix(1 0 0 1 433.808 75.7477)" class="text-g2 g2-fontSize">Victims</text>
 </g>
 <g id="AnimeBars">
-	<line class="st9" x1="494.8" y1="411.3" x2="494.8" y2="102.9"/>
-	<line class="st9" x1="437.6" y1="411.3" x2="437.6" y2="304.8"/>
-	<line class="st9" x1="380.7" y1="411.3" x2="380.7" y2="334"/>
-	<line class="st9" x1="324.2" y1="411.3" x2="324.2" y2="402.1"/>
-	<line class="st9" x1="267.7" y1="411.3" x2="267.7" y2="408"/>
-	<line class="st9" x1="210" y1="411.3" x2="210" y2="404.3"/>
-	<line class="st9" x1="153.8" y1="411.3" x2="153.8" y2="398.8"/>
-	<line class="st10" x1="145.4" y1="411.3" x2="145.4" y2="399.7"/>
-	<line class="st10" x1="201.7" y1="411.3" x2="201.7" y2="404.3"/>
-	<line class="st10" x1="259.2" y1="411.3" x2="259.2" y2="409"/>
-	<line class="st10" x1="315.8" y1="411.3" x2="315.8" y2="404.1"/>
-	<line class="st10" x1="372.8" y1="411.3" x2="372.8" y2="335"/>
-	<line class="st10" x1="429.7" y1="411.3" x2="429.7" y2="309.5"/>
-	<line class="st10" x1="486.5" y1="411.3" x2="486.5" y2="118.9"/>
-	<line class="st11" x1="478.1" y1="411.3" x2="478.1" y2="160.9"/>
-	<line class="st11" x1="421.3" y1="411.3" x2="421.3" y2="315.9"/>
-	<line class="st11" x1="364.4" y1="411.3" x2="364.4" y2="338.4"/>
-	<line class="st11" x1="307.5" y1="411.3" x2="307.5" y2="404.1"/>
-	<line class="st11" x1="250.8" y1="411.3" x2="250.8" y2="410.2"/>
-	<line class="st11" x1="193.3" y1="411.3" x2="193.3" y2="406.2"/>
-	<line class="st11" x1="137" y1="411.3" x2="137" y2="408.4"/>
+	<line class="g2-line" x1="494.8" y1="411.3" x2="494.8" y2="102.9"/>
+	<line class="g2-line" x1="437.6" y1="411.3" x2="437.6" y2="304.8"/>
+	<line class="g2-line" x1="380.7" y1="411.3" x2="380.7" y2="334"/>
+	<line class="g2-line" x1="324.2" y1="411.3" x2="324.2" y2="402.1"/>
+	<line class="g2-line" x1="267.7" y1="411.3" x2="267.7" y2="408"/>
+	<line class="g2-line" x1="210" y1="411.3" x2="210" y2="404.3"/>
+	<line class="g2-line" x1="153.8" y1="411.3" x2="153.8" y2="398.8"/>
+	<line class="g2-line2" x1="145.4" y1="411.3" x2="145.4" y2="399.7"/>
+	<line class="g2-line2" x1="201.7" y1="411.3" x2="201.7" y2="404.3"/>
+	<line class="g2-line2" x1="259.2" y1="411.3" x2="259.2" y2="409"/>
+	<line class="g2-line2" x1="315.8" y1="411.3" x2="315.8" y2="404.1"/>
+	<line class="g2-line2" x1="372.8" y1="411.3" x2="372.8" y2="335"/>
+	<line class="g2-line2" x1="429.7" y1="411.3" x2="429.7" y2="309.5"/>
+	<line class="g2-line2" x1="486.5" y1="411.3" x2="486.5" y2="118.9"/>
+	<line class="g2-line3" x1="478.1" y1="411.3" x2="478.1" y2="160.9"/>
+	<line class="g2-line3" x1="421.3" y1="411.3" x2="421.3" y2="315.9"/>
+	<line class="g2-line3" x1="364.4" y1="411.3" x2="364.4" y2="338.4"/>
+	<line class="g2-line3" x1="307.5" y1="411.3" x2="307.5" y2="404.1"/>
+	<line class="g2-line3" x1="250.8" y1="411.3" x2="250.8" y2="410.2"/>
+	<line class="g2-line3" x1="193.3" y1="411.3" x2="193.3" y2="406.2"/>
+	<line class="g2-line3" x1="137" y1="411.3" x2="137" y2="408.4"/>
 </g>
 </svg>

@@ -52,7 +52,11 @@ body {
   left: 0;
 }
 
-
+img {
+  width: 590px;
+  margin: auto;
+  display: block;
+}
 
 p.chapter{
   margin: 0;
