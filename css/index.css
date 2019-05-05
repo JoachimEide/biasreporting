@@ -10,6 +10,13 @@ body {
   margin: 0;
 }
 
+#intro{
+  padding-top: 100px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .wrapper {
   position: relative;
   background: #fbfbfb;
