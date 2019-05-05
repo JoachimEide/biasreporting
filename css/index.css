@@ -222,6 +222,32 @@ object{
   margin: auto;
 }
 
+.ic-wrapp svg{
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.obj{
+  fill:#323234;
+}
+
+
+.circle{
+  fill:none;
+  stroke:#323234;
+  stroke-miterlimit:10;
+}
+
+.obj:hover{
+  stroke: none;
+}
+
+.ic-wrapp:hover .circle{
+  stroke: #FFCC66;
+  stroke-width: 1.5px;
+}
+
 svg {
   display: block;
   width: 70%;
