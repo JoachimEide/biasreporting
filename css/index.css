@@ -229,7 +229,7 @@ object{
 }
 
 .obj{
-  fill:#323234;
+  fill:#32323;
 }
 
 
@@ -243,9 +243,17 @@ object{
   stroke: none;
 }
 
+.chapter{
+  display: none;
+}
+
 .ic-wrapp:hover .circle{
   stroke: #FFCC66;
-  stroke-width: 1.5px;
+  stroke-width: 2.5px;
+}
+
+.ic-wrapp:hover .chapter{
+  display: block;
 }
 
 svg {
