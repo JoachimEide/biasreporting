@@ -59,6 +59,18 @@ body {
   left: 0;
 }
 
+#dark{
+  height: 25px;
+  margin: auto;
+  left: 0;
+  width: 50%;
+}
+
+.bck{fill:#323234;stroke:#323234;stroke-miterlimit:10;}
+.d-circle{fill:#FBFBFB;stroke:#323234;stroke-miterlimit:10;}
+.sun{fill:#323234;}
+.moon{fill:#FBFBFB;}
+
 img {
   width: 590px;
   margin: auto;
