@@ -53,8 +53,15 @@ body {
   text-align: center;
 }
 
-.sep {
-  height: 3px;
+.sep-line {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sep {
+  margin: auto;
+  text-align: center;
 }
 
 #icons {

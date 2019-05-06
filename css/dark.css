@@ -67,6 +67,21 @@ body {
 .sun{fill:#FBFBFB;}
 .moon{fill:#323234;}
 
+.sep-line {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sep {
+  margin: auto;
+  text-align: center;
+}
+
+a:visited {
+  color: #fbfbfb;
+}
+
 #icons {
   height: 30px;
   margin: auto;
@@ -236,7 +251,7 @@ h2 {
 
 p{
   font-family: 'Open Sans', sans-serif;
-  color: #fbfbfb;
+  color: #e9ecee;
   width: 590px;
   margin: auto;
   padding: 1em 0px;
