@@ -53,6 +53,10 @@ body {
   text-align: center;
 }
 
+.sep {
+  height: 3px;
+}
+
 #icons {
   height: 30px;
   margin: auto;
