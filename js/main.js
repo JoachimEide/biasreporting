@@ -134,7 +134,7 @@ carouselSlider.addEventListener('transitioned', () =>{
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
-  //console.log('Offset:' + offset);
+  console.log('Offset:' + offset);
   if (offset > 375){
     let morph1 = anime({
       targets: '#morphing .polymorph',

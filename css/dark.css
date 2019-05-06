@@ -47,13 +47,33 @@ body {
 
 .containerChapters .chapter {
   text-decoration: none;
-  color: #323234;
+  color: #fbfbfb;
   font-weight: 450;
   padding-top: 10px;
   text-align: center;
 }
 
+.icon{
+  fill:#FBFBFB;
+}
+.circle{
+  fill:none;
+  stroke:#FBFBFB;
+  stroke-miterlimit:10;
+}
+
+.bck{fill:#323234;stroke:#323234;stroke-miterlimit:10;}
+.circle-mode{fill:#FBFBFB;stroke:#323234;stroke-miterlimit:10;}
+.sun{fill:#FBFBFB;}
+.moon{fill:#323234;}
+
 #icons {
+  height: 30px;
+  margin: auto;
+  left: 0;
+}
+
+#light{
   height: 30px;
   margin: auto;
   left: 0;
@@ -243,20 +263,9 @@ object{
 }
 
 .ic-wrapp svg{
-  display: block;
-  width: 70%;
+  display: flex;
+  width: 30px;
   margin: auto;
-}
-
-.obj{
-  fill:#32323;
-}
-
-
-.circle{
-  fill:none;
-  stroke:#323234;
-  stroke-miterlimit:10;
 }
 
 .obj:hover{
