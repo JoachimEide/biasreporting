@@ -183,11 +183,11 @@ window.addEventListener("scroll", function(){
     vid1.autoplay = false;
     vid1.pause();
   }
-  if (offset > 3487 && offset < 3621){
+  if (offset > 3177 && offset < 3676){
     illustration1.play();
   }
 
-  if (offset > 4914 && offset < 5521){
+  if (offset > 4600 && offset < 5400){
     let vid2 = document.getElementById('vid2');
     vid2.autoplay = true;
     vid2.play();
@@ -198,23 +198,23 @@ window.addEventListener("scroll", function(){
   if (offset > 6000 && offset < 6118){
     graph.play();
   }
-  if (offset > 7000 && offset < 7200){
+  if (offset > 6700 && offset < 7150){
     illustration2.play();
   }
-  if (offset > 8000 && offset < 8125){
+  if (offset > 7650 && offset < 8060){
     illustration3.play();
   }
-  if (offset > 8950 && offset < 9150){
+  if (offset > 8480 && offset < 9000){
     illustration4.play();
   }
-  if (offset > 9860 && offset < 9941){
+  if (offset > 9260 && offset < 9900){
     illustration5.play();
   }
   if (offset > 11900 && offset < 12100){
     graph2.play();
   }
 
-  if (offset > 16094 && offset < 16716){
+  if (offset > 15700 && offset < 16600){
     let vid3 = document.getElementById('vid3');
     vid3.autoplay = true;
     vid3.play();
@@ -222,7 +222,7 @@ window.addEventListener("scroll", function(){
     vid3.autoplay = false;
     vid3.pause();
   }
-  if (offset > 18080 && offset < 18657){
+  if (offset > 17700 && offset < 18600){
     let vid4 = document.getElementById('vid4');
     vid4.autoplay = true;
     vid4.play();
