@@ -176,7 +176,6 @@ window.addEventListener("load", function() {
 
 window.addEventListener("scroll", function(){
   let offset = window.pageYOffset;
-  console.log('Offset:' + offset);
   if (offset > 995 && offset < 1569){
     let vid1 = document.getElementById('vid1');
     vid1.autoplay = true;
