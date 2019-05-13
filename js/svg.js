@@ -137,7 +137,7 @@ window.addEventListener("load", function() {
 
   const title = anime.timeline({
     easing: 'easeOutExpo',
-    loop: true,
+    loop: false,
     });
     title.add({
       }).add({
@@ -159,6 +159,7 @@ window.addEventListener("load", function() {
       delay: 0,
       easing: 'spring(1, 100, 10, 0)'
     })
+    /*
     title.add({
       }).add({
         targets: '#breaking',
@@ -170,6 +171,7 @@ window.addEventListener("load", function() {
           targets: '#bias',
           opacity: 0,
         })
+        */
 });
 
 window.addEventListener("scroll", function(){

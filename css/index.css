@@ -468,6 +468,10 @@ video::-webkit-media-controls-panel{
   -webkit-appearance: none;
 }
 
+a:visited {
+  color: #282828;
+}
+
 input, textarea {
   transition: all 800ms;
   font-family: "Open Sans", sans-serif;
